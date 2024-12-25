@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+/* parte de las columnas */
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#datosCarrera-container {
+    padding: 20%;
+    text-align: center;
+    flex: 1;      /* Hace que ambos contenedores ocupen el mismo espacio */
+    margin: 10px; /* Agrega un margen para separar las columnas */
+}

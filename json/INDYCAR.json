@@ -1,0 +1,124 @@
+{
+    "temporada": "IndyCar Series 2025",
+    "carreras": [
+      {
+        "nombre": "Grand Prix of St. Petersburg",
+        "fecha": "09/03/2025",
+        "hora_chile": "13:30",
+        "circuito": "Streets of St. Petersburg",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "PPG 375",
+        "fecha": "23/03/2025",
+        "hora_chile": "13:00",
+        "circuito": "Texas Motor Speedway",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Acura Grand Prix of Long Beach",
+        "fecha": "13/04/2025",
+        "hora_chile": "15:00",
+        "circuito": "Streets of Long Beach",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Children's of Alabama Indy Grand Prix",
+        "fecha": "27/04/2025",
+        "hora_chile": "14:00",
+        "circuito": "Barber Motorsports Park",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "GMR Grand Prix",
+        "fecha": "10/05/2025",
+        "hora_chile": "15:00",
+        "circuito": "Indianapolis Motor Speedway Road Course",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Indianapolis 500",
+        "fecha": "25/05/2025",
+        "hora_chile": "13:00",
+        "circuito": "Indianapolis Motor Speedway",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Chevrolet Detroit Grand Prix",
+        "fecha": "01/06/2025",
+        "hora_chile": "14:00",
+        "circuito": "Streets of Detroit",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Road America",
+        "fecha": "08/06/2025",
+        "hora_chile": "13:00",
+        "circuito": "Road America",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Sonsio Grand Prix",
+        "fecha": "22/06/2025",
+        "hora_chile": "13:00",
+        "circuito": "Road America",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Honda Indy 200",
+        "fecha": "06/07/2025",
+        "hora_chile": "13:30",
+        "circuito": "Mid-Ohio Sports Car Course",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Honda Indy Toronto",
+        "fecha": "13/07/2025",
+        "hora_chile": "14:00",
+        "circuito": "Exhibition Place",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Iowa Speedway Race 1",
+        "fecha": "19/07/2025",
+        "hora_chile": "15:00",
+        "circuito": "Iowa Speedway",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Iowa Speedway Race 2",
+        "fecha": "20/07/2025",
+        "hora_chile": "15:00",
+        "circuito": "Iowa Speedway",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Music City Grand Prix",
+        "fecha": "10/08/2025",
+        "hora_chile": "13:00",
+        "circuito": "Streets of Nashville",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Gateway 500",
+        "fecha": "24/08/2025",
+        "hora_chile": "14:00",
+        "circuito": "World Wide Technology Raceway",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Grand Prix of Portland",
+        "fecha": "31/08/2025",
+        "hora_chile": "15:00",
+        "circuito": "Portland International Raceway",
+        "imagen": "../img/indycar.png"
+      },
+      {
+        "nombre": "Firestone Grand Prix of Monterey",
+        "fecha": "14/09/2025",
+        "hora_chile": "15:00",
+        "circuito": "WeatherTech Raceway Laguna Seca",
+        "imagen": "../img/indycar.png"
+      }
+    ]
+  }

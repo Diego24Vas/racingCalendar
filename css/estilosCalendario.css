@@ -1,0 +1,123 @@
+#calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    height: 450px; /* Ajusta la altura según tus necesidades */
+    overflow-y: auto; /* Habilita el scroll vertical */
+
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.calendar-header h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.prevButton, .nextButton {
+    background-color: #3982DB;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.prevButton:hover, .nextButton:hover {
+    background-color: #397CDB;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Solo tres columnas: viernes, sábado y domingo */
+    gap: 2px; /* Espacio entre los días */
+    width: 100%;
+    max-width: 700px;
+    background-color: #f0f0f0; /* Color del fondo */
+    transform: translateX(-31%);/* Ajustar el desplazamiento */
+}
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100px; /* Ancho fijo */
+    height: 100px; /* Alto fijo */
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 2px solid #ccc; /* Agregar borde */
+    border-radius: 0px; /* Bordes redondeados */
+    box-shadow:  px 4px rgba(0, 0, 0, 0.1);
+}
+.day:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+}
+
+.day.hidden {
+    visibility: hidden;
+}
+
+.day p {
+    margin: 5px 0;
+    color: #ffffff;
+}
+
+
+
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    border: none; /* Quitar el borde */
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-top: 1px;
+    transition: background-color 0.3s;
+}
+
+.event:hover {
+    background-color: #ffffff;
+}
+
+.event img {
+    margin: 1px; /* Reduce el margen entre las imágenes */
+    max-width: 40%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+}
+
+
+.event p {
+    margin: 5px 0;
+    color: #555;
+}

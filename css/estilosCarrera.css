@@ -1,0 +1,48 @@
+#datosCarrera-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    height: 450px; /* Ajusta la altura según tus necesidades */
+    overflow-y: auto; /* Habilita el scroll vertical */
+}
+
+.event-details {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.event-details h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.event-details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.event-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.event-divider {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+
+img {
+    max-width: 50%;
+    height: auto;
+}

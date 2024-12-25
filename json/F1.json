@@ -1,0 +1,175 @@
+{
+    "temporada": "Formula 1 World Championship 2025",
+    "carreras": [
+      {
+        "nombre": "Gran Premio de Bahréin",
+        "fecha": "02/03/2025",
+        "hora_chile": "10:00",
+        "circuito": "Circuito Internacional de Bahréin",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Arabia Saudita",
+        "fecha": "09/03/2025",
+        "hora_chile": "10:00",
+        "circuito": "Circuito Urbano de Jeddah",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Australia",
+        "fecha": "23/03/2025",
+        "hora_chile": "02:00",
+        "circuito": "Circuito de Albert Park",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Japón",
+        "fecha": "06/04/2025",
+        "hora_chile": "01:00",
+        "circuito": "Circuito de Suzuka",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de China",
+        "fecha": "20/04/2025",
+        "hora_chile": "03:00",
+        "circuito": "Circuito Internacional de Shanghai",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Miami",
+        "fecha": "04/05/2025",
+        "hora_chile": "15:30",
+        "circuito": "Autódromo Internacional de Miami",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Emilia Romaña",
+        "fecha": "18/05/2025",
+        "hora_chile": "10:00",
+        "circuito": "Autodromo Enzo e Dino Ferrari",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Mónaco",
+        "fecha": "25/05/2025",
+        "hora_chile": "10:00",
+        "circuito": "Circuito de Mónaco",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Canadá",
+        "fecha": "08/06/2025",
+        "hora_chile": "14:00",
+        "circuito": "Circuito Gilles Villeneuve",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de España",
+        "fecha": "22/06/2025",
+        "hora_chile": "10:00",
+        "circuito": "Circuito de Barcelona-Catalunya",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Austria",
+        "fecha": "29/06/2025",
+        "hora_chile": "10:00",
+        "circuito": "Red Bull Ring",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Gran Bretaña",
+        "fecha": "06/07/2025",
+        "hora_chile": "11:00",
+        "circuito": "Circuito de Silverstone",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Hungría",
+        "fecha": "27/07/2025",
+        "hora_chile": "10:00",
+        "circuito": "Hungaroring",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Bélgica",
+        "fecha": "03/08/2025",
+        "hora_chile": "10:00",
+        "circuito": "Circuito de Spa-Francorchamps",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Países Bajos",
+        "fecha": "24/08/2025",
+        "hora_chile": "10:00",
+        "circuito": "Circuito de Zandvoort",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Italia",
+        "fecha": "07/09/2025",
+        "hora_chile": "10:00",
+        "circuito": "Autodromo Nazionale di Monza",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Azerbaiyán",
+        "fecha": "21/09/2025",
+        "hora_chile": "08:00",
+        "circuito": "Circuito Urbano de Bakú",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Singapur",
+        "fecha": "05/10/2025",
+        "hora_chile": "09:00",
+        "circuito": "Circuito Urbano de Marina Bay",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Austin",
+        "fecha": "19/10/2025",
+        "hora_chile": "15:00",
+        "circuito": "Circuito de las Américas",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de México",
+        "fecha": "26/10/2025",
+        "hora_chile": "15:00",
+        "circuito": "Autódromo Hermanos Rodríguez",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Brasil",
+        "fecha": "09/11/2025",
+        "hora_chile": "14:00",
+        "circuito": "Autódromo José Carlos Pace",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Las Vegas",
+        "fecha": "22/11/2025",
+        "hora_chile": "02:00",
+        "circuito": "Circuito Urbano de Las Vegas",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Qatar",
+        "fecha": "30/11/2025",
+        "hora_chile": "11:00",
+        "circuito": "Circuito Internacional de Losail",
+        "imagen": "../img/f1.png"
+      },
+      {
+        "nombre": "Gran Premio de Abu Dhabi",
+        "fecha": "07/12/2025",
+        "hora_chile": "10:00",
+        "circuito": "Circuito Yas Marina",
+        "imagen": "../img/f1.png"
+      }
+    ]
+  }
+
+  

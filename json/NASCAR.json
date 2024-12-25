@@ -1,0 +1,317 @@
+{
+    "temporada": "NASCAR Cup Series 2025",
+    "carreras": [
+      {
+        "nombre": "Busch Light Clash at The Coliseum",
+        "fecha": "02/02/2025",
+        "hora_chile": "17:00",
+        "tipo": "Exhibición",
+        "circuito": "Los Angeles Memorial Coliseum",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Daytona 500",
+        "fecha": "16/02/2025",
+        "hora_chile": "16:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Daytona International Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Atlanta 400",
+        "fecha": "23/02/2025",
+        "hora_chile": "17:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Atlanta Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Las Vegas 400",
+        "fecha": "02/03/2025",
+        "hora_chile": "17:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Las Vegas Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Phoenix 500",
+        "fecha": "09/03/2025",
+        "hora_chile": "17:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Phoenix Raceway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Bristol Dirt Race",
+        "fecha": "16/03/2025",
+        "hora_chile": "17:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Bristol Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Circuit of The Americas",
+        "fecha": "23/03/2025",
+        "hora_chile": "17:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Circuit of The Americas",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Richmond 400",
+        "fecha": "30/03/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Richmond Raceway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Martinsville 400",
+        "fecha": "06/04/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Martinsville Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Texas 500",
+        "fecha": "13/04/2025",
+        "hora_chile": "17:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Texas Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Talladega 500",
+        "fecha": "20/04/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Talladega Superspeedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Dover 400",
+        "fecha": "27/04/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Dover Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Kansas 400",
+        "fecha": "04/05/2025",
+        "hora_chile": "17:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Kansas Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Darlington 400",
+        "fecha": "11/05/2025",
+        "hora_chile": "17:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Darlington Raceway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "North Wilkesboro All-Star Race",
+        "fecha": "18/05/2025",
+        "hora_chile": "16:00",
+        "tipo": "Exhibición",
+        "circuito": "North Wilkesboro Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Charlotte 600",
+        "fecha": "25/05/2025",
+        "hora_chile": "18:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Charlotte Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Gateway 300",
+        "fecha": "01/06/2025",
+        "hora_chile": "17:30",
+        "tipo": "Temporada Regular",
+        "circuito": "World Wide Technology Raceway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Sonoma 350",
+        "fecha": "08/06/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Sonoma Raceway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "New Hampshire 301",
+        "fecha": "15/06/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "New Hampshire Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Nashville 400",
+        "fecha": "22/06/2025",
+        "hora_chile": "17:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Nashville Superspeedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Chicago Street Race",
+        "fecha": "29/06/2025",
+        "hora_chile": "17:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Chicago Street Course",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Atlanta 400",
+        "fecha": "06/07/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Atlanta Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "New Hampshire 301",
+        "fecha": "13/07/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "New Hampshire Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Pocono 400",
+        "fecha": "20/07/2025",
+        "hora_chile": "16:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Pocono Raceway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Richmond 400",
+        "fecha": "27/07/2025",
+        "hora_chile": "17:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Richmond Raceway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Michigan 400",
+        "fecha": "03/08/2025",
+        "hora_chile": "16:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Michigan International Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Indianapolis Road Course",
+        "fecha": "10/08/2025",
+        "hora_chile": "16:30",
+        "tipo": "Temporada Regular",
+        "circuito": "Indianapolis Motor Speedway Road Course",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Watkins Glen 355",
+        "fecha": "17/08/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Watkins Glen International",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Daytona 400",
+        "fecha": "24/08/2025",
+        "hora_chile": "16:00",
+        "tipo": "Temporada Regular",
+        "circuito": "Daytona International Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Darlington Southern 500",
+        "fecha": "31/08/2025",
+        "hora_chile": "18:00",
+        "tipo": "Playoffs - Round of 16",
+        "circuito": "Darlington Raceway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Kansas 400",
+        "fecha": "07/09/2025",
+        "hora_chile": "17:00",
+        "tipo": "Playoffs - Round of 16",
+        "circuito": "Kansas Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Bristol Night Race",
+        "fecha": "14/09/2025",
+        "hora_chile": "19:30",
+        "tipo": "Playoffs - Round of 16",
+        "circuito": "Bristol Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Texas 500",
+        "fecha": "21/09/2025",
+        "hora_chile": "17:30",
+        "tipo": "Playoffs - Round of 12",
+        "circuito": "Texas Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Talladega 500",
+        "fecha": "28/09/2025",
+        "hora_chile": "16:00",
+        "tipo": "Playoffs - Round of 12",
+        "circuito": "Talladega Superspeedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Charlotte Roval 400",
+        "fecha": "05/10/2025",
+        "hora_chile": "16:00",
+        "tipo": "Playoffs - Round of 12",
+        "circuito": "Charlotte Motor Speedway Roval",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Las Vegas 400",
+        "fecha": "12/10/2025",
+        "hora_chile": "16:30",
+        "tipo": "Playoffs - Round of 8",
+        "circuito": "Las Vegas Motor Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Homestead-Miami 400",
+        "fecha": "19/10/2025",
+        "hora_chile": "16:30",
+        "tipo": "Playoffs - Round of 8",
+        "circuito": "Homestead-Miami Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Martinsville 500",
+        "fecha": "26/10/2025",
+        "hora_chile": "16:00",
+        "tipo": "Playoffs - Round of 8",
+        "circuito": "Martinsville Speedway",
+        "imagen": "../img/nascar.png"
+      },
+      {
+        "nombre": "Phoenix 500",
+        "fecha": "02/11/2025",
+        "hora_chile": "17:00",
+        "tipo": "Championship 4",
+        "circuito": "Phoenix Raceway",
+        "imagen": "../img/nascar.png"
+      }
+    ]
+  }

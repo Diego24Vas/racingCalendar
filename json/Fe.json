@@ -1,0 +1,131 @@
+{
+    "temporada": "Formula E World Championship 2025",
+    "carreras": [
+      {
+        "nombre": "E-Prix de Ciudad de México",
+        "fecha": "11/01/2025",
+        "hora_chile": "15:00",
+        "circuito": "Autódromo Hermanos Rodríguez",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Diriyah 1",
+        "fecha": "25/01/2025",
+        "hora_chile": "12:00",
+        "circuito": "Circuito Callejero de Diriyah",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Diriyah 2",
+        "fecha": "26/01/2025",
+        "hora_chile": "12:00",
+        "circuito": "Circuito Callejero de Diriyah",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Hyderabad",
+        "fecha": "15/02/2025",
+        "hora_chile": "07:30",
+        "circuito": "Circuito Callejero de Hyderabad",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de São Paulo",
+        "fecha": "15/03/2025",
+        "hora_chile": "14:00",
+        "circuito": "Circuito Callejero de São Paulo",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Tokio",
+        "fecha": "29/03/2025",
+        "hora_chile": "02:00",
+        "circuito": "Circuito Callejero de Tokio",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Misano",
+        "fecha": "12/04/2025",
+        "hora_chile": "10:00",
+        "circuito": "Misano World Circuit Marco Simoncelli",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Mónaco",
+        "fecha": "26/04/2025",
+        "hora_chile": "10:00",
+        "circuito": "Circuito de Mónaco",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Berlín 1",
+        "fecha": "10/05/2025",
+        "hora_chile": "09:00",
+        "circuito": "Tempelhof Airport Street Circuit",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Berlín 2",
+        "fecha": "11/05/2025",
+        "hora_chile": "09:00",
+        "circuito": "Tempelhof Airport Street Circuit",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Shanghai 1",
+        "fecha": "24/05/2025",
+        "hora_chile": "04:00",
+        "circuito": "Circuito Internacional de Shanghai",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Shanghai 2",
+        "fecha": "25/05/2025",
+        "hora_chile": "04:00",
+        "circuito": "Circuito Internacional de Shanghai",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Jakarta 1",
+        "fecha": "14/06/2025",
+        "hora_chile": "05:00",
+        "circuito": "Circuito Internacional de Jakarta",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Jakarta 2",
+        "fecha": "15/06/2025",
+        "hora_chile": "05:00",
+        "circuito": "Circuito Internacional de Jakarta",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Portland 1",
+        "fecha": "28/06/2025",
+        "hora_chile": "15:00",
+        "circuito": "Portland International Raceway",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Portland 2",
+        "fecha": "29/06/2025",
+        "hora_chile": "15:00",
+        "circuito": "Portland International Raceway",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Londres 1",
+        "fecha": "19/07/2025",
+        "hora_chile": "11:00",
+        "circuito": "ExCeL London Circuit",
+        "imagen": "../img/fe.png"
+      },
+      {
+        "nombre": "E-Prix de Londres 2",
+        "fecha": "20/07/2025",
+        "hora_chile": "11:00",
+        "circuito": "ExCeL London Circuit",
+        "imagen": "../img/fe.png"
+      }
+    ]
+  }
