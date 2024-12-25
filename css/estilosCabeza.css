@@ -1,8 +1,10 @@
-
 #header-container {
     background-color: #3982DB;
-    padding: 30px;
-    text-align: center;
-    border-radius: 5px;    
+    padding: 10px;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-between;  
     
 }
+
+

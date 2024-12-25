@@ -1,0 +1,62 @@
+/* Botón del menú */
+.menu-button {
+    background-color: #3982DB;
+    color: white;
+    border: none;
+    padding: 5px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Menú flotante */
+.menu {
+    position: fixed;
+    top: 0;
+    left: -310px; /* Oculto inicialmente en el lado izquierdo */
+    width: 300px;
+    height: 97vh; /* Limita la altura del menú al 80% de la ventana */
+    background-color: #333;
+    color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease;
+    padding: 30px;
+    box-sizing: border-box;
+    z-index: 1000;
+    border-radius: 0 10px 10px 0; /* Bordes redondeados solo en las esquinas inferiores */
+    margin: 8px;
+}
+
+/* Cuando el menú está activo (visible) */
+.menu.active {
+    left: 0;
+}
+
+/* Estilo del encabezado del menú */
+.menu-header {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Enlaces dentro del menú */
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Botón de cerrar dentro del menú */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
