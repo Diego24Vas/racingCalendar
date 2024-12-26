@@ -22,7 +22,7 @@
     padding: 30px;
     box-sizing: border-box;
     z-index: 1000;
-    border-radius: 0 10px 10px 0; /* Bordes redondeados solo en las esquinas inferiores */
+    border-radius: 5px 5px 5px 5px; /* Bordes redondeados solo en las esquinas inferiores */
     margin: 8px;
 }
 
@@ -42,7 +42,7 @@
     display: block;
     color: white;
     text-decoration: none;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .menu a:hover {
@@ -60,3 +60,13 @@
     font-size: 30px;
     cursor: pointer;
 }
+
+
+a i {
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+  }
+
+a {
+    text-decoration: none; /* Remueve subrayado */
+    color: black; /* Cambia el color del texto */
+  }
