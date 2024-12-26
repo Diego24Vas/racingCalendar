@@ -1,0 +1,32 @@
+#container-tablas {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#pilotos-container, #escuderia-container {
+    background-color: #f0f0f0;
+    width: 49%; /* Ajusta el ancho para dividir el espacio por la mitad */
+    padding: 15%; /* Añade padding para mejor visualización */
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#pilotos-container a, #escuderia-container a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black; /* Cambia el color del texto */
+}
+
+#pilotos-container a i, #escuderia-container a i {
+    margin-bottom: 10px; /* Espacio entre el ícono y el texto */
+    font-size: 5em;
+}
+
+
