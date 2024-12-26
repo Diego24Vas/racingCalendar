@@ -9,7 +9,13 @@
     margin-top: 10px;
     height: 450px; /* Ajusta la altura según tus necesidades */
     overflow-y: auto; /* Habilita el scroll vertical */
+}
 
+#calendar-container img {
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: contain;
+    background-color: white;
 }
 
 .calendar-header {
@@ -24,7 +30,6 @@
 .calendar-header h3 {
     margin: 0;
     font-size: 1.5em;
-    color: #333;
 }
 
 .prevButton, .nextButton {
@@ -112,7 +117,7 @@
 }
 
 .event img {
-    margin: 1px; /* Reduce el margen entre las imágenes */
+    margin: 0px; /* Reduce el margen entre las imágenes */
     max-width: 40%; /* Asegura que la imagen no exceda el tamaño del contenedor */
 }
 

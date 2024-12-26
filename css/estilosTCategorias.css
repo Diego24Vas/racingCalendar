@@ -1,0 +1,44 @@
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 1%;
+    background-color: #f0f0f0;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    font-size: 1.2rem; 
+
+}
+
+/* Contenedor principal de equipos */
+#equipos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Estilo de cada contenedor de equipo */
+#equipos-container div {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;  /* Ancho de las imágenes */
+    height: 100px; /* Alto de las imágenes */
+    background-color: #f0f0f0;
+    border-radius: 10px;
+
+}
+
+#equipos-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

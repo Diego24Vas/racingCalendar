@@ -7,7 +7,7 @@
 #pilotos-container, #escuderia-container {
     background-color: #f0f0f0;
     width: 49%; /* Ajusta el ancho para dividir el espacio por la mitad */
-    padding: 15%; /* Añade padding para mejor visualización */
+    padding: 12%; /* Añade padding para mejor visualización */
     box-sizing: border-box; /* Incluye padding y borde en el ancho total */
     border-radius: 10px;
     display: flex;
@@ -28,5 +28,22 @@
     margin-bottom: 10px; /* Espacio entre el ícono y el texto */
     font-size: 5em;
 }
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 1%;
+    background-color: #f0f0f0;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px;
+    font-size: 1.2rem; 
+
+}
+
 
 
