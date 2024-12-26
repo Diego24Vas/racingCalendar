@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilosGeneral.css">
+    <link rel="stylesheet" href="../css/estilosCalendario.css">
+    <link rel="stylesheet" href="../css/estilosCarrera.css">
     <link rel="stylesheet" href="../css/estilosCabeza.css">
     <link rel="stylesheet" href="../css/estilosMenu.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilosTablas.css">
-    <link rel="stylesheet" href="../css/estilosProximasCarreras.css">
-    <title>Racing</title>
+
+
+
+    <title> Calendario </title>
 </head>
 <body>
+    <!-- Contenedor donde se cargará el header dinámicamente -->
     <div id="header-container"></div>
 
-    <div id="index-container">
-        <div id="proximas-carreras">
-            <div id="proximas-titulo">
-                <h2>Próximas carreras</h2>
-            </div>
-        </div>        
-        
-        <div id="otro">
-            <!-- Contenido del otro div -->
-        </div>
+    <div id="container">
+        <div id="calendar-container"></div>
+        <div id="datosCarrera-container"></div>
     </div>
 
     <script src="../js/loadHeader.js"></script>
     <script src="../js/menu.js"></script>
-    <script src="../js/proximasCarreras.js"></script>
     <script src="../js/cargarDatos.js"></script>
+    <script src="../js/calendario.js"></script>
+    <script src="../js/datosCarrera.js"></script>
 </body>
 </html>

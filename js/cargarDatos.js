@@ -17,6 +17,7 @@ Promise.all(jsonFiles.map(file => fetch(file).then(response => response.json()))
     dataArray.forEach(data => {
       events = events.concat(data.carreras);  // Asumimos que cada JSON tiene la clave 'carreras'
     });
+    showNextRace();  // Llamar a showNextRace después de cargar los datos
     const today = new Date();
     createCalendar(today.getFullYear(), today.getMonth());
   })

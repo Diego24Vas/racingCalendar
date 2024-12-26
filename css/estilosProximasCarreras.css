@@ -1,0 +1,77 @@
+
+
+#index-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre los divs */
+    padding: 20px;
+    min-height: 80vh; /* Asegura que el contenedor ocupe al menos el 100% del viewport */
+}
+
+/* Estilo para el contenedor de próximas carreras */
+#proximas-carreras, #otro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    text-align: center;
+    flex: 1; /* Permite que el div ocupe el espacio disponible */
+}
+
+/* Estilo para el título de próximas carreras */
+#proximas-carreras h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los detalles del evento */
+.event-details {
+    background-color: #ffffff;
+    padding: 10px; /* Reducir el padding */
+    margin-bottom: 10px; /* Reducir el margen inferior */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 0.9em; /* Reducir el tamaño de la fuente */
+}
+
+/* Estilo para el título del evento */
+.event-details h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.1em; /* Reducir el tamaño de la fuente del título */
+}
+
+/* Estilo para los párrafos de detalles del evento */
+.event-details p {
+    margin: 5px 0;
+    font-size: 0.9em; /* Reducir el tamaño de la fuente de los párrafos */
+}
+
+/* Estilo para la imagen del evento */
+.event-details img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilo para el otro div */
+#otro {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    flex: 1; /* Permite que el div ocupe el espacio disponible */
+}
+
+#proximas-titulo h2 {
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente según sea necesario */
+    color: #333; /* Ajusta el color según sea necesario */
+    margin: 10px 0; /* Ajusta el margen según sea necesario */
+}
