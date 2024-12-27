@@ -27,6 +27,9 @@ function showEventDetails(events) {
         const circuit = document.createElement('p');
         circuit.textContent = `Circuito: ${event.circuito}`;
 
+        const country = document.createElement('p');
+        country.textContent = `País: ${event.pais}`;
+
         const image = document.createElement('img');
         image.src = event.imagen;
         image.alt = event.nombre;
@@ -34,8 +37,9 @@ function showEventDetails(events) {
         // Agregar los elementos al contenedor
         eventDiv.appendChild(title);
         eventDiv.appendChild(date);
-        eventDiv.appendChild(time);
+       //ventDiv.appendChild(time);
         eventDiv.appendChild(circuit);
+        eventDiv.appendChild(country);
         eventDiv.appendChild(image);
 
         container.appendChild(eventDiv);

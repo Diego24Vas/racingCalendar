@@ -2,12 +2,9 @@ let events = [];  // Almacenaremos todos los eventos de los archivos JSON
 
 // Lista de archivos JSON que queremos cargar
 const jsonFiles = [
-    '../json/NASCAR.json',
-    '../json/F1.json',
-    '../json/F2.json',
-    '../json/INDYCAR.json',
-    '../json/24lemans.json',
-    '../json/Fe.json',
+
+    '../json/calendarioF1_2025.json'
+
 ];
 
 // Cargar todos los archivos JSON y combinar los eventos

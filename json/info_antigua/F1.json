@@ -8,34 +8,7 @@
         "circuito": "Circuito Internacional de Bahréin",
         "imagen": "../img/f1.png"
       },
-      {
-        "nombre": "Gran Premio de Arabia Saudita",
-        "fecha": "09/03/2025",
-        "hora_chile": "10:00",
-        "circuito": "Circuito Urbano de Jeddah",
-        "imagen": "../img/f1.png"
-      },
-      {
-        "nombre": "Gran Premio de Australia",
-        "fecha": "23/03/2025",
-        "hora_chile": "02:00",
-        "circuito": "Circuito de Albert Park",
-        "imagen": "../img/f1.png"
-      },
-      {
-        "nombre": "Gran Premio de Japón",
-        "fecha": "06/04/2025",
-        "hora_chile": "01:00",
-        "circuito": "Circuito de Suzuka",
-        "imagen": "../img/f1.png"
-      },
-      {
-        "nombre": "Gran Premio de China",
-        "fecha": "20/04/2025",
-        "hora_chile": "03:00",
-        "circuito": "Circuito Internacional de Shanghai",
-        "imagen": "../img/f1.png"
-      },
+
       {
         "nombre": "Gran Premio de Miami",
         "fecha": "04/05/2025",

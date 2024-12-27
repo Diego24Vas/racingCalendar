@@ -81,11 +81,9 @@ function createCalendar(year, month) {
           const image = document.createElement("img");
           image.src = event.imagen;
           image.alt = event.nombre;
-          
           // Mostrar el nombre y la hora del evento
           const eventDetails = document.createElement("p");
 
-          
           eventElement.appendChild(image);
           eventElement.appendChild(eventDetails);
           dayElement.appendChild(eventElement);

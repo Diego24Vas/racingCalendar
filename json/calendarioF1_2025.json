@@ -1,0 +1,173 @@
+{
+    "temporada": "Formula 1 World Championship 2025",
+    "carreras": [
+        {
+            "nombre": "Gran Premio de Australia",
+            "fecha": "16/03/2025",
+            "pais": "Australia",
+            "circuito": "Melbourne",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de China",
+            "fecha": "23/03/2025",
+            "pais": "China",
+            "circuito": "Shanghai",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Japón",
+            "fecha": "6/04/2025",
+            "pais": "Japan",
+            "circuito": "Suzuka",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Bahrain",
+            "fecha": "13/04/2025",
+            "pais": "Bahrain",
+            "circuito": "Sakhir",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Arabia Saudita",
+            "fecha": "20/04/2025",
+            "pais": "Saudi Arabia",
+            "circuito": "Jeddah",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Abu Dhabi",
+            "fecha": "4/05/2025",
+            "pais": "USA",
+            "circuito": "Miami",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Emilia Romagna",
+            "fecha": "18/05/2025",
+            "pais": "Italy",
+            "circuito": "Imola",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Monaco",
+            "fecha": "25/05/2025",
+            "pais": "Monaco",
+            "circuito": "Monaco",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de España",
+            "fecha": "01/06/2025",
+            "pais": "Spain",
+            "circuito": "Barcelona",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Canada",
+            "fecha": "15/06/2025",
+            "pais": "Canada",
+            "circuito": "Montreal",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Austria",
+            "fecha": "29/06/2025",
+            "pais": "Austria",
+            "circuito": "Spielberg",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Gran Bretaña",
+            "fecha": "6/07/2025",
+            "pais": "United Kingdom",
+            "circuito": "Silverstone",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Belgica",
+            "fecha": "27/07/2025",
+            "pais": "Belgium",
+            "circuito": "Spa",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Holanda",
+            "fecha": "3/08/2025",
+            "pais": "Hungary",
+            "circuito": "Budapest",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de los paises bajos",
+            "fecha": "31/08/2025",
+            "pais": "Netherlands",
+            "circuito": "Zandvoort",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Italia",
+            "fecha": "7/09/2025",
+            "pais": "Italy",
+            "circuito": "Monza",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Baku",
+            "fecha": "21/09/2025",
+            "pais": "Azerbaijan",
+            "circuito": "Baku",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Singapur",
+            "fecha": "5/10/2025",
+            "pais": "Singapore",
+            "circuito": "Singapore",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Austin",
+            "fecha": "19/10/2025",
+            "pais": "USA",
+            "circuito": "Austin",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Mexico",
+            "fecha": "26/10/2025",
+            "pais": "Mexico",
+            "circuito": "Mexico City",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Brasil",
+            "fecha": "9/11/2025",
+            "pais": "Brazil",
+            "circuito": "Sao Paulo",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Las Vegas",
+            "fecha": "22/11/2025",
+            "pais": "USA",
+            "circuito": "Las Vegas",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Qatar",
+            "fecha": "30/11/2025",
+            "pais": "Qatar",
+            "circuito": "Lusail",
+            "imagen": "../img/f1.png"
+        },
+        {
+            "nombre": "Gran Premio de Abu Dhabi",
+            "fecha": "7/12/2025",
+            "pais": "Abu Dhabi",
+            "circuito": "Yas Marina",
+            "imagen": "../img/f1.png"
+        }
+    ]
+}
