@@ -5,3 +5,71 @@
     justify-content: center;
     align-items: center;
 }
+
+#back-button {
+    position: absolute;
+    top: 15%;
+    left: 10px;
+}
+
+.back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #3982DB;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #2c6bb2;
+    transform: translateY(-2px);
+}
+
+.back-button:active {
+    background-color: #1f4e7a;
+    transform: translateY(0);
+}
+
+
+
+
+#pilotos-info {
+    width: 70%;
+    height: 70vh; /* Cambiado a 70vh para asegurar que ocupe el 70% de la altura de la ventana */
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    min-height: 500px; /* Tamaño mínimo para asegurar visibilidad */
+}
+
+#escuderias-info {
+    width: 70%;
+    height: 70vh; /* Cambiado a 70vh para asegurar que ocupe el 70% de la altura de la ventana */
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    min-height: 500px; /* Tamaño mínimo para asegurar visibilidad */
+}
+
+
+#img-logo {
+    position: absolute;
+    top: 30px;
+    right: 46.5%;
+}
+
+.logo-container {
+    width: 100px;
+    height: auto;
+}
