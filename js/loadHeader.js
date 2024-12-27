@@ -10,3 +10,5 @@ function loadHeader() {
 
 // Llamar a la función para cargar el header cuando la página se carga
 window.onload = loadHeader;
+
+
