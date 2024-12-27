@@ -1,5 +1,3 @@
-
-
 #index-container {
     display: flex;
     justify-content: space-between;
@@ -9,7 +7,7 @@
 }
 
 /* Estilo para el contenedor de próximas carreras */
-#proximas-carreras, #otro {
+#proximas-carreras {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,7 +16,20 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    flex: 1; /* Permite que el div ocupe el espacio disponible */
+    flex: 0.3; /* Ajusta este valor para hacer la columna más angosta */
+}
+
+/* Estilo para el otro contenedor */
+#otro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 0.7; /* Ajusta este valor para que la columna ocupe el espacio adicional */
 }
 
 /* Estilo para el título de próximas carreras */
@@ -53,19 +64,10 @@
 
 /* Estilo para la imagen del evento */
 .event-details img {
-    width: 50%;
+    width: 40%;
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
-}
-
-/* Estilo para el otro div */
-#otro {
-    background-color: #e0e0e0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex: 1; /* Permite que el div ocupe el espacio disponible */
 }
 
 #proximas-titulo h2 {
@@ -91,12 +93,12 @@
 }
 
 #proximas-titulo{
-    margin-left: 15%;
+    margin-left: 8%;
     font-size: 0.8rem; 
 
 }
 
 #otro-titulo{
-    margin-right: 15%;
+    margin-right: 30%;
     font-size: 0.8rem;
 }

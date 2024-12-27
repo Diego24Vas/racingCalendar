@@ -1,0 +1,63 @@
+.container {
+    display: flex; /* Habilita flexbox para organizar los divs en fila */
+    flex-direction: row; /* Los hijos estarán en fila horizontal */
+    height: 88vh; /* Asegura que el contenedor ocupe la altura de la pantalla */
+    overflow-x: auto; /* Habilita el scroll horizontal */
+    overflow-y: hidden; /* Evita scroll vertical */
+}   
+
+.column {
+    flex: 0 0 422px; /* Cada columna tiene un ancho fijo de 300px (puedes ajustarlo) */
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total */
+    border-radius: 10px;
+}
+
+/* Estilos para el scrollbar */
+.container::-webkit-scrollbar {
+    width: 12px; /* Ancho del scrollbar */
+    height: 12px; /* Altura del scrollbar horizontal */
+}
+
+.container::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Color de fondo del track del scrollbar */
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del thumb del scrollbar */
+    border-radius: 10px;
+    border: 3px solid #f0f0f0; /* Espacio alrededor del thumb */
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color del thumb del scrollbar al pasar el mouse */
+}
+
+
+
+#img-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%; /* Asegura que el contenedor ocupe toda la altura de la columna */
+    margin-top: 10px;
+}
+
+#img-logo-indy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%; /* Asegura que el contenedor ocupe toda la altura de la columna */
+    margin-top: 10px;
+}
+
+
+.logo-container {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ajusta la imagen para que se contenga dentro del contenedor */
+}
