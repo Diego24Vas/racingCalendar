@@ -1,6 +1,6 @@
 // Función para cargar el header desde un archivo HTML externo
 function loadHeader() {
-    fetch('../html/header.html')
+    fetch('./html/header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header-container').innerHTML = data;
