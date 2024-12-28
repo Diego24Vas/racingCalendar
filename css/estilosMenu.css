@@ -14,7 +14,7 @@
     top: 0;
     left: -300px; /* Oculto inicialmente en el lado izquierdo */
     width: 250px;
-    height: 89%;
+    height: 88%;
     background-color: #333;
     overflow-x: hidden;
     transition: 0.5s;
