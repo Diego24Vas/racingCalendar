@@ -12,17 +12,18 @@
 .menu {
     position: fixed;
     top: 0;
-    left: -310px; /* Oculto inicialmente en el lado izquierdo */
-    width: 300px;
-    height: 97vh; /* Limita la altura del menú al 80% de la ventana */
+    left: -300px; /* Oculto inicialmente en el lado izquierdo */
+    width: 250px;
+    height: 89%;
     background-color: #333;
-    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-    transition: left 0.3s ease;
-    padding: 30px;
-    box-sizing: border-box;
     z-index: 1000;
-    border-radius: 5px 5px 5px 5px; /* Bordes redondeados solo en las esquinas inferiores */
+    border-radius: 5px; /* Bordes redondeados */
     margin: 8px;
 }
 
@@ -39,34 +40,50 @@
 
 /* Enlaces dentro del menú */
 .menu a {
-    display: block;
-    color: white;
+    padding: 10px 15px;
     text-decoration: none;
-    margin: 20px 0;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
 .menu a:hover {
-    text-decoration: underline;
+    color: #f1f1f1;
 }
 
 /* Botón de cerrar dentro del menú */
 .close-button {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
     background: none;
     border: none;
     color: white;
-    font-size: 30px;
     cursor: pointer;
 }
 
-
 a i {
     margin-right: 10px; /* Espacio entre el ícono y el texto */
-  }
+}
 
 a {
     text-decoration: none; /* Remueve subrayado */
     color: black; /* Cambia el color del texto */
-  }
+}
+
+.donation-link {
+    margin-top: auto; /* Empuja el enlace de donaciones hacia la parte inferior */
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.donation-link:hover {
+    color: #f1f1f1;
+}

@@ -39,6 +39,7 @@
 
 
 
+
 #img-logo {
     display: flex;
     justify-content: center;
@@ -51,8 +52,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%; /* Asegura que el contenedor ocupe toda la altura de la columna */
-    margin-top: 10px;
+    height: 7%; /* Asegura que el contenedor ocupe toda la altura de la columna */
+
 }
 
 
@@ -60,4 +61,58 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: contain; /* Ajusta la imagen para que se contenga dentro del contenedor */
+}
+
+#medio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50%; /* Asegura que el contenedor ocupe toda la altura disponible */
+    width: 100%; /* Asegura que el contenedor ocupe toda la anchura disponible */
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0); /* Pinta el fondo de negro */
+    border-radius: 10px;
+}
+
+.podio {
+    flex: 1; /* Cada podio ocupa el mismo espacio */
+    margin: 5px; /* Espacio entre los podios */
+    background-color: rgba(0, 0, 0, 0.085); /* Fondo de cada podio */
+    border-radius: 3px;
+    padding: 10px; /* Espacio interno de cada podio */
+    justify-content: flex-end; /* Alinea el contenido del podio al final */
+}
+
+#primer-podio, #segundo-podio, #tercer-podio {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#primer-podio {
+    background-color: #c1bebe;
+    height: 50%;
+}
+
+#segundo-podio {
+    background-color: #c1bebe;
+    height: 30%;
+}
+
+#tercer-podio {
+    background-color: #c1bebe;
+    height: 10%;
+}
+
+
+
+#info-podio{
+    flex: 1; /* Cada podio ocupa el mismo espacio */
+    margin: 5px; /* Espacio entre los podios */
+    background-color: #c1bebe52; /* Fondo de cada podio */
+    border-radius: 10px;
+    padding: 10px; /* Espacio interno de cada podio */
+    justify-content: flex-end; /* Alinea el contenido del podio al final */
+    height: 35%;
+
 }
