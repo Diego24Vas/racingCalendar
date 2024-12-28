@@ -25,11 +25,16 @@ function showNextRace() {
         const date = document.createElement('p');
         date.textContent = `Fecha: ${nextEvent.fecha}`;
 
+        /*
         const time = document.createElement('p');
         time.textContent = `Hora: ${nextEvent.hora_chile}`;
+        */
 
         const circuit = document.createElement('p');
         circuit.textContent = `Circuito: ${nextEvent.circuito}`;
+
+        const country = document.createElement('p');
+        country.textContent = `País: ${nextEvent.pais}`;
 
         const image = document.createElement('img');
         image.src = nextEvent.imagen;
@@ -37,8 +42,9 @@ function showNextRace() {
 
         eventDiv.appendChild(title);
         eventDiv.appendChild(date);
-        eventDiv.appendChild(time);
+        //eventDiv.appendChild(time);
         eventDiv.appendChild(circuit);
+        eventDiv.appendChild(country);
         eventDiv.appendChild(image);
 
         container.appendChild(eventDiv);

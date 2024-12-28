@@ -2,13 +2,6 @@ function showEventDetails(events) {
     const container = document.getElementById('datosCarrera-container');
     container.innerHTML = ''; // Limpiar contenido previo
 
-    // Ordenar los eventos por hora
-    events.sort((a, b) => {
-        const timeA = a.hora_chile.split(':').map(Number);
-        const timeB = b.hora_chile.split(':').map(Number);
-        return timeA[0] - timeB[0] || timeA[1] - timeB[1];
-    });
-
     // Mostrar los detalles de cada evento
     events.forEach((event, index) => {
         const eventDiv = document.createElement('div');
@@ -20,9 +13,6 @@ function showEventDetails(events) {
 
         const date = document.createElement('p');
         date.textContent = `Fecha: ${event.fecha}`;
-
-        const time = document.createElement('p');
-        time.textContent = `Hora: ${event.hora_chile}`;
 
         const circuit = document.createElement('p');
         circuit.textContent = `Circuito: ${event.circuito}`;
@@ -37,7 +27,6 @@ function showEventDetails(events) {
         // Agregar los elementos al contenedor
         eventDiv.appendChild(title);
         eventDiv.appendChild(date);
-       //ventDiv.appendChild(time);
         eventDiv.appendChild(circuit);
         eventDiv.appendChild(country);
         eventDiv.appendChild(image);

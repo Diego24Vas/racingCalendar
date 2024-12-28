@@ -3,7 +3,8 @@ let events = [];  // Almacenaremos todos los eventos de los archivos JSON
 // Lista de archivos JSON que queremos cargar
 const jsonFiles = [
 
-    '../json/calendarioF1_2025.json'
+    '../json/calendarioF1_2025.json',
+    '../json/calendarioFE_2025.json'
 
 ];
 
