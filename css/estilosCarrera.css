@@ -5,10 +5,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
     height: 500px; /* Ajusta la altura según tus necesidades */
-    overflow-y: auto; /* Habilita el scroll vertical */
+    overflow-y: auto; /* Habilita el scroll vertical */   
+    
 }
 
 .event-details {
+    position: relative;
     background-color: #ffffff;
     padding: 15px;
     margin-bottom: 20px;
@@ -28,10 +30,14 @@
 }
 
 .event-details img {
-    width: 100%;
+    width: 40%;
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
+    position: absolute; /* Permite mover la imagen libremente */
+    top: 22%; /* Ajusta la posición superior */
+    left: 55%; /* Ajusta la posición izquierda */
+    transform: translate(0, 0); /* Permite mover la imagen con respecto a su posición original */
 }
 
 .event-divider {
@@ -43,6 +49,6 @@
 
 
 img {
-    max-width: 50%;
+    max-width: 30%;
     height: auto;
 }

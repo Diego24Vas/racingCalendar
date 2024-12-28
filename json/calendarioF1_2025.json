@@ -5,6 +5,7 @@
             "nombre": "Gran Premio de Australia",
             "fecha": "16/03/2025",
             "pais": "Australia",
+            "code_pais": "au",
             "circuito": "Melbourne",
             "imagen": "../img/f1.png"
         },
@@ -12,6 +13,7 @@
             "nombre": "Gran Premio de China",
             "fecha": "23/03/2025",
             "pais": "China",
+            "code_pais": "cn",
             "circuito": "Shanghai",
             "imagen": "../img/f1.png"
         },
@@ -19,6 +21,7 @@
             "nombre": "Gran Premio de Japón",
             "fecha": "6/04/2025",
             "pais": "Japan",
+            "code_pais": "jp",
             "circuito": "Suzuka",
             "imagen": "../img/f1.png"
         },
@@ -26,6 +29,7 @@
             "nombre": "Gran Premio de Bahrain",
             "fecha": "13/04/2025",
             "pais": "Bahrain",
+            "code_pais": "bh",
             "circuito": "Sakhir",
             "imagen": "../img/f1.png"
         },
@@ -33,6 +37,7 @@
             "nombre": "Gran Premio de Arabia Saudita",
             "fecha": "20/04/2025",
             "pais": "Saudi Arabia",
+            "code_pais": "sa",
             "circuito": "Jeddah",
             "imagen": "../img/f1.png"
         },
@@ -40,6 +45,7 @@
             "nombre": "Gran Premio de Abu Dhabi",
             "fecha": "4/05/2025",
             "pais": "USA",
+            "code_pais": "us",
             "circuito": "Miami",
             "imagen": "../img/f1.png"
         },
@@ -47,6 +53,7 @@
             "nombre": "Gran Premio de Emilia Romagna",
             "fecha": "18/05/2025",
             "pais": "Italy",
+            "code_pais": "it",
             "circuito": "Imola",
             "imagen": "../img/f1.png"
         },
@@ -54,6 +61,7 @@
             "nombre": "Gran Premio de Monaco",
             "fecha": "25/05/2025",
             "pais": "Monaco",
+            "code_pais": "mc",
             "circuito": "Monaco",
             "imagen": "../img/f1.png"
         },
@@ -61,6 +69,7 @@
             "nombre": "Gran Premio de España",
             "fecha": "01/06/2025",
             "pais": "Spain",
+            "code_pais": "es",
             "circuito": "Barcelona",
             "imagen": "../img/f1.png"
         },
@@ -68,6 +77,7 @@
             "nombre": "Gran Premio de Canada",
             "fecha": "15/06/2025",
             "pais": "Canada",
+            "code_pais": "ca",
             "circuito": "Montreal",
             "imagen": "../img/f1.png"
         },
@@ -75,6 +85,7 @@
             "nombre": "Gran Premio de Austria",
             "fecha": "29/06/2025",
             "pais": "Austria",
+            "code_pais": "at",
             "circuito": "Spielberg",
             "imagen": "../img/f1.png"
         },
@@ -82,6 +93,7 @@
             "nombre": "Gran Premio de Gran Bretaña",
             "fecha": "6/07/2025",
             "pais": "United Kingdom",
+            "code_pais": "gb",
             "circuito": "Silverstone",
             "imagen": "../img/f1.png"
         },
@@ -89,6 +101,7 @@
             "nombre": "Gran Premio de Belgica",
             "fecha": "27/07/2025",
             "pais": "Belgium",
+            "code_pais": "be",
             "circuito": "Spa",
             "imagen": "../img/f1.png"
         },
@@ -96,6 +109,7 @@
             "nombre": "Gran Premio de Holanda",
             "fecha": "3/08/2025",
             "pais": "Hungary",
+            "code_pais": "hu",
             "circuito": "Budapest",
             "imagen": "../img/f1.png"
         },
@@ -103,6 +117,7 @@
             "nombre": "Gran Premio de los paises bajos",
             "fecha": "31/08/2025",
             "pais": "Netherlands",
+            "code_pais": "nl",
             "circuito": "Zandvoort",
             "imagen": "../img/f1.png"
         },
@@ -110,6 +125,7 @@
             "nombre": "Gran Premio de Italia",
             "fecha": "7/09/2025",
             "pais": "Italy",
+            "code_pais": "it",
             "circuito": "Monza",
             "imagen": "../img/f1.png"
         },
@@ -117,6 +133,7 @@
             "nombre": "Gran Premio de Baku",
             "fecha": "21/09/2025",
             "pais": "Azerbaijan",
+            "code_pais": "az",
             "circuito": "Baku",
             "imagen": "../img/f1.png"
         },
@@ -124,6 +141,7 @@
             "nombre": "Gran Premio de Singapur",
             "fecha": "5/10/2025",
             "pais": "Singapore",
+            "code_pais": "sg",
             "circuito": "Singapore",
             "imagen": "../img/f1.png"
         },
@@ -131,6 +149,7 @@
             "nombre": "Gran Premio de Austin",
             "fecha": "19/10/2025",
             "pais": "USA",
+            "code_pais": "us",
             "circuito": "Austin",
             "imagen": "../img/f1.png"
         },
@@ -138,6 +157,7 @@
             "nombre": "Gran Premio de Mexico",
             "fecha": "26/10/2025",
             "pais": "Mexico",
+            "code_pais": "mx",
             "circuito": "Mexico City",
             "imagen": "../img/f1.png"
         },
@@ -145,6 +165,7 @@
             "nombre": "Gran Premio de Brasil",
             "fecha": "9/11/2025",
             "pais": "Brazil",
+            "code_pais": "br",
             "circuito": "Sao Paulo",
             "imagen": "../img/f1.png"
         },
@@ -152,6 +173,7 @@
             "nombre": "Gran Premio de Las Vegas",
             "fecha": "22/11/2025",
             "pais": "USA",
+            "code_pais": "us",
             "circuito": "Las Vegas",
             "imagen": "../img/f1.png"
         },
@@ -159,6 +181,7 @@
             "nombre": "Gran Premio de Qatar",
             "fecha": "30/11/2025",
             "pais": "Qatar",
+            "code_pais": "qa",
             "circuito": "Lusail",
             "imagen": "../img/f1.png"
         },
@@ -166,6 +189,7 @@
             "nombre": "Gran Premio de Abu Dhabi",
             "fecha": "7/12/2025",
             "pais": "Abu Dhabi",
+            "code_pais": "ae",
             "circuito": "Yas Marina",
             "imagen": "../img/f1.png"
         }

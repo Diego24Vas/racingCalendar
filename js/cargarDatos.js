@@ -4,7 +4,8 @@ let events = [];  // Almacenaremos todos los eventos de los archivos JSON
 const jsonFiles = [
 
     '../json/calendarioF1_2025.json',
-    '../json/calendarioFE_2025.json'
+    '../json/calendarioFE_2025.json',
+    '../json/24lemans.json'
 
 ];
 

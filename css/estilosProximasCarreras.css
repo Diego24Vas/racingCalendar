@@ -40,6 +40,7 @@
 
 /* Estilo para los detalles del evento */
 .event-details {
+    position: relative;
     background-color: #ffffff;
     padding: 10px; /* Reducir el padding */
     margin-bottom: 10px; /* Reducir el margen inferior */
@@ -68,6 +69,10 @@
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
+    position: absolute; /* Permite mover la imagen libremente */
+    top: 22%; /* Ajusta la posición superior */
+    left: 55%; /* Ajusta la posición izquierda */
+    transform: translate(0, 0); /* Permite mover la imagen con respecto a su posición original */               
 }
 
 #proximas-titulo h2 {

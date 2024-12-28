@@ -7,6 +7,11 @@ function showEventDetails(events) {
         const eventDiv = document.createElement('div');
         eventDiv.className = 'event-details';
 
+        // Crear espacio para la bandera
+        const flagDiv = document.createElement('span');
+        flagDiv.className = `flag-icon flag-icon-${event.code_pais.toLowerCase()}`;
+        eventDiv.appendChild(flagDiv);
+
         // Crear elementos HTML para mostrar los detalles del evento
         const title = document.createElement('h3');
         title.textContent = event.nombre;
@@ -30,9 +35,8 @@ function showEventDetails(events) {
         eventDiv.appendChild(circuit);
         eventDiv.appendChild(country);
         eventDiv.appendChild(image);
-
         container.appendChild(eventDiv);
-
+        
         // Agregar una línea divisoria después de cada evento, excepto el último
         if (index < events.length - 1) {
             const hr = document.createElement('hr');

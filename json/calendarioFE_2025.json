@@ -6,105 +6,120 @@
             "fecha": "11/01/2025",
             "pais": "Mexico",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "mx"
         },
         {
             "nombre": "ePrix de Arabia Saudí I",
             "fecha": "14/02/2025",
             "pais": "Arabia Saudita",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "sa"
         },
         {
             "nombre": "ePrix de Arabia Saudí II",
             "fecha": "15/02/2025",
             "pais": "Arabia Saudita",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "sa"
         },
         {
             "nombre": "ePrix de Miami",
             "fecha": "12/04/2025",
             "pais": "USA",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "us"
         },
         {
             "nombre": "ePrix de Mónaco I",
             "fecha": "03/05/2025",
             "pais": "Monaco",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "mc"
         },
         {
             "nombre": "ePrix de Mónaco II",
             "fecha": "04/05/2025",
             "pais": "Monaco",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "mc"
         },
         {
             "nombre": "ePrix de Tokio I",
             "fecha": "17/05/2025",
             "pais": "Japón",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "jp"
         },
         {
             "nombre": "ePrix de Tokio II",
             "fecha": "18/05/2025",
             "pais": "Japón",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "jp"
         },
         {
             "nombre": "ePrix de Shanghái I",
             "fecha": "31/05/2025",
             "pais": "China",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "cn"
         },
         {
             "nombre": "ePrix de Shanghái II",
             "fecha": "01/06/2025",
             "pais": "China",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "cn"
         },
         {
             "nombre": "ePrix de Indonesia",
             "fecha": "21/06/2025",
-            "pais": "N/A",
+            "pais": "Indonesia",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "id"
         },
         {
             "nombre": "ePrix de Berlín I",
             "fecha": "12/07/2025",
             "pais": "Alemania",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "de"
         },
         {
             "nombre": "ePrix de Berlín II",
             "fecha": "13/07/2025",
             "pais": "Alemania",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "de"
         },
         {
             "nombre": "ePrix de Londres I",
             "fecha": "26/07/2025",
             "pais": "Inglaterra",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "gb"
         },
         {
             "nombre": "ePrix de Londres II",
             "fecha": "27/07/2025",
             "pais": "Inglaterra",
             "circuito": "N/A",
-            "imagen": "../img/fe.png"
+            "imagen": "../img/fe.png",
+            "code_pais": "gb"
         }
     ]
 }

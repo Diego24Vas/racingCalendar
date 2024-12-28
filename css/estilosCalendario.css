@@ -23,12 +23,12 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 200px;
-    margin-bottom: 20px;
+    max-width: 500px;
+    margin-bottom: 20px;;
 }
 
 .calendar-header h3 {
-    margin: 0;
+    margin: 0px;
     font-size: 1.5em;
 }
 
@@ -84,8 +84,7 @@
 .day:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff; /* Cambia el color de fondo */
-    color: white; /* Cambia el color del texto */
+
 }
 
 .day.hidden {
@@ -125,4 +124,11 @@
 .event p {
     margin: 5px 0;
     color: #555;
+}
+
+.today {
+    background-color: #bcbcbc; /* Color de fondo para el día actual */
+    color: #000; /* Color de texto para el día actual */
+    border-color: #bcbcbc; /* Color del borde para el día actual */;
+
 }
