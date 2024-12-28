@@ -60,7 +60,6 @@ function createCalendar(year, month) {
 
     const dayElement = document.createElement("div");
     dayElement.className = "day";
-    dayElement.dataset.date = date.toISOString(); // Agregar data attribute con la fecha
     
     // Mostrar solo viernes, sábado y domingo
     if (dayOfWeek === 5 || dayOfWeek === 6 || dayOfWeek === 0) {
@@ -104,9 +103,6 @@ function createCalendar(year, month) {
   }
 
   calendarContainer.appendChild(grid);
-
-  // Llamar a markToday después de crear el calendario
-  markToday();
 }
 
 // Función para actualizar el calendario
@@ -121,28 +117,9 @@ function updateCalendar(year, month) {
   createCalendar(year, month);
 }
 
-// Función para marcar el día actual
-function markToday() {
-  const today = new Date();
-  const day = today.getDate();
-  const month = today.getMonth();
-  const year = today.getFullYear();
-
-  // Buscar el elemento del día actual en el calendario
-  const dayElements = document.querySelectorAll('.day');
-  dayElements.forEach(dayElement => {
-    const dayDate = new Date(dayElement.dataset.date);
-    if (dayDate.getDate() === day && dayDate.getMonth() === month && dayDate.getFullYear() === year) {
-      dayElement.classList.add('today');
-    }
-  });
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
   const currentMonth = currentDate.getMonth();
   createCalendar(currentYear, currentMonth);
 });
-
-

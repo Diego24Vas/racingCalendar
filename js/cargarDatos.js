@@ -5,6 +5,7 @@ const jsonFiles = [
 
     '../json/calendarioF1_2025.json',
     '../json/calendarioFE_2025.json',
+    '../json/calendarioNAS_2025.json',
     '../json/24lemans.json'
 
 ];
