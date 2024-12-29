@@ -1,0 +1,117 @@
+{
+    "temporada": "Formula 2 Championship 2025",
+        "carreras": [
+            {
+            "nombre": "Melbourne",
+            "fecha": "16/03/2025",
+            "pais": "Australia",
+            "code_pais": "au",
+            "circuito": "Melbourne",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Sakhir",
+            "fecha": "13/04/2025",
+            "pais": "Bahrein",
+            "code_pais": "bh",
+            "circuito": "Sakhir",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Jeddah",
+            "fecha": "20/04/2025",
+            "pais": "Arabia Saudí",
+            "code_pais": "sa",
+            "circuito": "Jeddah",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Imola",
+            "fecha": "18/05/2025",
+            "pais": "Italia",
+            "code_pais": "it",
+            "circuito": "Imola",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Monte-Carlo",
+            "fecha": "25/05/2025",
+            "pais": "Mónaco",
+            "code_pais": "mc",
+            "circuito": "Monte-Carlo",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Barcelona",
+            "fecha": "01/06/2025",
+            "pais": "España",
+            "code_pais": "es",
+            "circuito": "Barcelona",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Spielberg",
+            "fecha": "29/06/2025",
+            "pais": "Austria",
+            "code_pais": "at",
+            "circuito": "Spielberg",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Silverstone",
+            "fecha": "06/07/2025",
+            "pais": "Gran Bretaña",
+            "code_pais": "gb",
+            "circuito": "Silverstone",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Spa-Francorchamps",
+            "fecha": "27/07/2025",
+            "pais": "Bélgica",
+            "code_pais": "be",
+            "circuito": "Spa-Francorchamps",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Budapest",
+            "fecha": "03/08/2025",
+            "pais": "Hungría",
+            "code_pais": "hu",
+            "circuito": "Budapest",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Monza",
+            "fecha": "07/09/2025",
+            "pais": "Italia",
+            "code_pais": "it",
+            "circuito": "Monza",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Bakú",
+            "fecha": "21/09/2025",
+            "pais": "Azerbaiyán",
+            "code_pais": "az",
+            "circuito": "Bakú",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Lusail",
+            "fecha": "30/11/2025",
+            "pais": "Qatar",
+            "code_pais": "qa",
+            "circuito": "Lusail",
+            "imagen": "../img/f2.png"
+            },
+            {
+            "nombre": "Yas Marina",
+            "fecha": "07/12/2025",
+            "pais": "EAU",
+            "code_pais": "ae",
+            "circuito": "Yas Marina",
+            "imagen": "../img/f2.png"
+            }
+          ]
+}

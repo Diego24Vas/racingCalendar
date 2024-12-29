@@ -35,8 +35,8 @@
     border-radius: 5px;
     margin-top: 10px;
     position: absolute; /* Permite mover la imagen libremente */
-    top: 22%; /* Ajusta la posición superior */
-    left: 55%; /* Ajusta la posición izquierda */
+    top: 30%; /* Ajusta la posición superior */
+    left: 65%; /* Ajusta la posición izquierda */
     transform: translate(0, 0); /* Permite mover la imagen con respecto a su posición original */
 }
 
