@@ -1,0 +1,110 @@
+{
+    "temporada": "Campeonato Mundial de Rally 2025",
+    "carreras": [
+      {
+        "nombre": "Rally de Montecarlo",
+        "fecha": "24/01/2025",
+        "pais": "Mónaco",
+        "code_pais": "mc",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Suecia",
+        "fecha": "15/02/2025",
+        "pais": "Suecia",
+        "code_pais": "se",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Kenia",
+        "fecha": "27/03/2025",
+        "pais": "Kenia",
+        "code_pais": "ke",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Croacia",
+        "fecha": "18/04/2025",
+        "pais": "Croacia",
+        "code_pais": "hr",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Portugal",
+        "fecha": "09/05/2025",
+        "pais": "Portugal",
+        "code_pais": "pt",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Italia",
+        "fecha": "31/05/2025",
+        "pais": "Italia",
+        "code_pais": "it",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Polonia",
+        "fecha": "11/06/2025",
+        "pais": "Polonia",
+        "code_pais": "pl",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Letonia",
+        "fecha": "18/07/2025",
+        "pais": "Letonia",
+        "code_pais": "lv",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Finlandia",
+        "fecha": "01/08/2025",
+        "pais": "Finlandia",
+        "code_pais": "fi",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Grecia",
+        "fecha": "05/09/2025",
+        "pais": "Grecia",
+        "code_pais": "gr",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Chile",
+        "fecha": "26/09/2025",
+        "pais": "Chile",
+        "code_pais": "cl",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally Europa Central",
+        "fecha": "17/10/2025",
+        "pais": "Europa Central",
+        "code_pais": "eu",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      },
+      {
+        "nombre": "Rally de Japón",
+        "fecha": "21/11/2025",
+        "pais": "Japón",
+        "code_pais": "jp",
+        "circuito": "N/A",
+        "imagen": "../img/wrc.png"
+      }
+    ]
+  }
+  

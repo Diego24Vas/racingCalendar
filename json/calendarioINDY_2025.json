@@ -1,0 +1,141 @@
+{
+    "temporada": "IndyCar Championship 2025",
+    "carreras": [
+        {
+            "nombre": "San Petersburgo",
+            "fecha": "02/03/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito urbano",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Thermal Club",
+            "fecha": "23/03/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito mixto",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Long Beach",
+            "fecha": "13/04/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito urbano",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Barber Motorsports Park",
+            "fecha": "04/05/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito mixto",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Indianápolis",
+            "fecha": "10/05/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito mixto",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "500 Millas de Indianápolis",
+            "fecha": "25/05/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Óvalo",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Detroit",
+            "fecha": "01/06/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito urbano",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Circuito World Wide Technology",
+            "fecha": "15/06/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Óvalo",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Road America",
+            "fecha": "22/06/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito mixto",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Mid-Ohio",
+            "fecha": "06/07/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito mixto",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Circuito de Iowa",
+            "fecha": "12/07/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Óvalo",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Iowa Speedway",
+            "fecha": "13/07/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Óvalo",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Toronto",
+            "fecha": "20/07/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito urbano",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Laguna Seca",
+            "fecha": "27/07/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito mixto",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Portland",
+            "fecha": "10/08/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Circuito mixto",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Milla de Milwaukee",
+            "fecha": "24/08/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Óvalo",
+            "imagen": "../img/indycar.png"
+        },
+        {
+            "nombre": "Nashville Superspeedway",
+            "fecha": "31/08/2025",
+            "pais": "USA",
+            "code_pais": "us",
+            "circuito": "Óvalo",
+            "imagen": "../img/indycar.png"
+        }
+    ]
+}

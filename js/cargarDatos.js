@@ -6,7 +6,10 @@ const jsonFiles = [
     '../json/calendarioF2_2025.json',  // Asegúrate de que este archivo esté incluido
     '../json/calendarioFE_2025.json',
     '../json/calendarioNAS_2025.json',
-    '../json/24lemans.json'
+    '../json/calendarioINDY_2025.json',
+    '../json/calendarioWRC_2025.json',
+    '../json/calendarioWEC_2025.json'
+
 ];
 
 // Cargar todos los archivos JSON y combinar los eventos

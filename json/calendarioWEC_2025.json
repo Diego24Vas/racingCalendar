@@ -1,0 +1,70 @@
+{
+    "temporada": "Mundial de Resistencia 2025",
+    "carreras": [
+      {
+        "nombre": "Losail",
+        "fecha": "28/02/2025",
+        "pais": "Qatar",
+        "code_pais": "qa",
+        "circuito": "Losail",
+        "imagen": "../img/wec.png"
+      },
+      {
+        "nombre": "Imola",
+        "fecha": "20/04/2025",
+        "pais": "Italy",
+        "code_pais": "it",
+        "circuito": "Imola",
+        "imagen": "../img/wec.png"
+      },
+      {
+        "nombre": "Spa",
+        "fecha": "10/05/2025",
+        "pais": "Belgium",
+        "code_pais": "be",
+        "circuito": "Spa",
+        "imagen": "../img/wec.png"
+      },
+      {
+        "nombre": "Le Mans",
+        "fecha": "15/06/2025",
+        "pais": "France",
+        "code_pais": "fr",
+        "circuito": "Le Mans",
+        "imagen": "../img/wec.png"
+      },
+      {
+        "nombre": "Interlagos",
+        "fecha": "13/07/2025",
+        "pais": "Brazil",
+        "code_pais": "br",
+        "circuito": "Interlagos",
+        "imagen": "../img/wec.png"
+      },
+      {
+        "nombre": "Austin",
+        "fecha": "07/09/2025",
+        "pais": "United States",
+        "code_pais": "us",
+        "circuito": "Austin",
+        "imagen": "../img/wec.png"
+      },
+      {
+        "nombre": "Fuji",
+        "fecha": "28/09/2025",
+        "pais": "Japan",
+        "code_pais": "jp",
+        "circuito": "Fuji",
+        "imagen": "../img/wec.png"
+      },
+      {
+        "nombre": "Bahrein",
+        "fecha": "08/11/2025",
+        "pais": "Bahrain",
+        "code_pais": "bh",
+        "circuito": "Bahrein",
+        "imagen": "../img/wec.png"
+      }
+    ]
+  }
+  
