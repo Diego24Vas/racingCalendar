@@ -1,19 +1,22 @@
+
+
 #calendar-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #f0f0f0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
-    height: 500px; /* Ajusta la altura según tus necesidades */
+    height: 510px; /* Ajusta la altura según tus necesidades */
     overflow-y: auto; /* Habilita el scroll vertical */
+
 }
 
 #calendar-container img {
     max-width: 50%;
-    max-height: 50%;
+    max-height: auto;
     object-fit: contain;
     background-color: white;
 }
@@ -22,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 40%;
     max-width: 500px;
     margin-bottom: 20px;;
 }
@@ -63,9 +66,9 @@
     grid-template-columns: repeat(7, 1fr); /* Solo tres columnas: viernes, sábado y domingo */
     gap: 2px; /* Espacio entre los días */
     width: 100%;
-    max-width: 700px;
+    max-width: 500px;
     background-color: #f0f0f000; /* Color del fondo */
-    transform: translateX(-31%);/* Ajustar el desplazamiento */
+    transform: translateX(-65%);/* Ajustar el desplazamiento */
 }
 .day {
     display: flex;
@@ -80,7 +83,10 @@
     border: 2px solid #ccc; /* Agregar borde */
     border-radius: 0px; /* Bordes redondeados */
     box-shadow:  px 4px rgba(0, 0, 0, 0.1);
-}
+    overflow: auto;
+}   
+
+
 .day:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -117,7 +123,7 @@
 
 .event img {
     margin: 0px; /* Reduce el margen entre las imágenes */
-    max-width: 40%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    max-width: 4%; /* Asegura que la imagen no exceda el tamaño del contenedor */
 }
 
 
@@ -132,3 +138,6 @@
     border-color: #bcbcbc; /* Color del borde para el día actual */;
 
 }
+
+
+

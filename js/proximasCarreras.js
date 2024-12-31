@@ -16,6 +16,8 @@ function showNextRace() {
         const container = document.getElementById('proximas-carreras');
         container.innerHTML = ''; // Limpiar contenido previo
 
+        
+
         const eventDiv = document.createElement('div');
         eventDiv.className = 'event-details';
 
