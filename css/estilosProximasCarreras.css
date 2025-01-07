@@ -1,109 +1,172 @@
+/* Contenedor principal */
 #index-container {
     display: flex;
+    flex-wrap: wrap; /* Permite que los contenedores se ajusten si no hay espacio suficiente */
     justify-content: space-between;
-    gap: 20px; /* Espacio entre los divs */
+    gap: 20px; /* Espacio entre los contenedores */
     padding: 20px;
-    min-height: 70vh; /* Asegura que el contenedor ocupe al menos el 100% del viewport */
+    min-height: 70vh;
 }
 
-/* Estilo para el contenedor de próximas carreras */
+/* Contenedor de próximas carreras */
 #proximas-carreras {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    flex: 0.3; /* Ajusta este valor para hacer la columna más angosta */
+    flex: 0.3;
+    min-width: 250px;
+    max-height: 100%;
+    overflow-y: auto;
 }
 
-/* Estilo para el otro contenedor */
+/* Contenedor de otro */
 #otro {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    flex: 0.7; /* Ajusta este valor para que la columna ocupe el espacio adicional */
-}
-
-/* Estilo para el título de próximas carreras */
-#proximas-carreras h2 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-/* Estilo para los detalles del evento */
-.event-details {
-    position: relative;
-    background-color: #ffffff;
-    padding: 10px; /* Reducir el padding */
-    margin-bottom: 10px; /* Reducir el margen inferior */
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    font-size: 0.9em; /* Reducir el tamaño de la fuente */
-}
-
-/* Estilo para el título del evento */
-.event-details h3 {
-    margin-top: 0;
-    color: #333;
-    font-size: 1.1em; /* Reducir el tamaño de la fuente del título */
-}
-
-/* Estilo para los párrafos de detalles del evento */
-.event-details p {
-    margin: 5px 0;
-    font-size: 0.9em; /* Reducir el tamaño de la fuente de los párrafos */
-}
-
-/* Estilo para la imagen del evento */
-.event-details img {
-    width: 40%;
-    height: auto;
-    border-radius: 5px;
-    margin-top: 10px;
-    position: absolute; /* Permite mover la imagen libremente */
-    top: 22%; /* Ajusta la posición superior */
-    left: 55%; /* Ajusta la posición izquierda */
-    transform: translate(0, 0); /* Permite mover la imagen con respecto a su posición original */               
-}
-
-#proximas-titulo h2 {
-    font-size: 1.5em; /* Ajusta el tamaño de la fuente según sea necesario */
-    color: #333; /* Ajusta el color según sea necesario */
-    margin: 10px 0; /* Ajusta el margen según sea necesario */
+    flex: 0.7;
+    min-width: 350px;
+    max-height: 100%;
+    overflow-y: auto;
 }
 
 #index-titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+/* Tarjetas de eventos */
+.event-details {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    padding: 1px;
-    margin-top: 1%;
-    background-color: #f0f0f0;
-    margin-left: 2%;
-    margin-right: 2%;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
     border-radius: 10px;
-    font-size: 1.2rem; 
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
-#proximas-titulo{
-    margin-left: 8%;
-    font-size: 0.8rem; 
-
+/* Efecto hover para las tarjetas */
+.event-details:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-#otro-titulo{
-    margin-right: 30%;
-    font-size: 0.8rem;
+/* Título de las tarjetas */
+.event-details h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Texto descriptivo de las tarjetas */
+.event-details p {
+    margin: 5px 0;
+    font-size: 0.95em;
+    color: #666;
+}
+
+/* Imagen dentro de las tarjetas */
+.event-details img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ######################################################################1 */
+
+/* Estilo específico para pantallas de teléfonos 1080x2400 y similares */
+@media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+    #index-container {
+        flex-direction: column; /* Cambia a disposición vertical */
+        gap: 10px; /* Reduce el espacio entre contenedores */
+        padding: 10px; /* Reduce el padding general */
+    }
+
+    #proximas-carreras,
+    #otro {
+        flex: 1; /* Ambos contenedores ocupan el 100% del ancho */
+        min-width: auto;
+        padding: 15px; /* Reduce el padding interno */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce la sombra */
+    }
+
+    #index-titulo{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2em;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .event-details {
+        padding: 10px; /* Reduce el padding interno de las tarjetas */
+        margin-bottom: 10px; /* Reduce el espacio entre tarjetas */
+    }
+
+    .event-details h3 {
+        font-size: 4em; /* Ajusta el tamaño del título */
+    }
+
+    .event-details p {
+        font-size: 3em; /* Ajusta el tamaño del texto */
+    }
+
+    .event-details img {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        max-width: 30%; /* Asegura que las imágenes no excedan el ancho */
+
+    }
+}
+
+/* Ajustes para pantallas aún más pequeñas (extra seguridad) */
+@media (max-width: 768px) {
+    #index-container {
+        flex-direction: column;
+    }
+
+    #proximas-carreras,
+    #otro {
+        flex: 1;
+        min-width: auto;
+    }
+
+    .event-details {
+        padding: 8px;
+    }
+
+    .event-details h3 {
+        font-size: 0.9em;
+    }
+
+    .event-details p {
+        font-size: 0.8em;
+    }
 }

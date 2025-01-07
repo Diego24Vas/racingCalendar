@@ -1,10 +1,40 @@
+/* Estilo base para el contenedor del encabezado */
 #header-container {
     background-color: #3982DB;
     padding: 10px;
     border-radius: 5px; 
     display: flex;
-    justify-content: space-between;  
-    
+    justify-content: space-between;
+    align-items: center; /* Alinea los elementos verticalmente */
+    gap: 10px; /* Espacio entre los elementos */
 }
 
 
+/* Ícono dentro del botón */
+.menu-button i {
+    font-size: 24px; /* Aumenta el tamaño del ícono */
+}
+
+/* Estilo para pantallas de teléfonos 1080x2400 y similares */
+@media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+    #header-container {
+        flex-direction: column; /* Cambia a disposición vertical */
+        align-items: flex-start; /* Alinea los elementos al inicio */
+        padding: 15px; /* Un poco más de espacio para evitar que se sienta muy comprimido */
+        gap: 15px; /* Aumenta el espacio entre los elementos en vertical */
+
+    }
+
+    /* Ícono dentro del botón */
+    .menu-button i {
+        font-size: 40px; /* Aumenta el tamaño del ícono */
+    }
+}
+
+/* Ajustes para pantallas aún más pequeñas (extra seguridad) */
+@media (max-width: 768px) {
+    #header-container {
+        padding: 10px; /* Reduce el padding */
+        gap: 10px; /* Espacio entre elementos ajustado */
+    }
+}

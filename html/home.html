@@ -9,19 +9,69 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilosTablas.css">
     <link rel="stylesheet" href="../css/estilosProximasCarreras.css">
+    <link rel="stylesheet" href="../css/filtro.css">
     <title>Racing</title>
 </head>
 <body>
     <div id="header-container"></div>
 
+    <div id="menu-filtro">
+        <button id="filtro">
+            <i class="fas fa-filter"></i> <!-- Ícono de filtro -->
+        </button>
+        <div id="dropdown-menu">
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" class="checkbox" id="checkbox-f1">
+                        <p>Formula 1</p>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" class="checkbox" id="checkbox-f2">
+                        <p>Formula 2</p>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" class="checkbox" id="checkbox-fe">
+                        <p>Formula E</p>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" class="checkbox" id="checkbox-indy">
+                        <p>IndyCar</p>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" class="checkbox" id="checkbox-nascar">
+                        <p>NASCAR</p>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" class="checkbox" id="checkbox-wec">
+                        <p>WEC</p>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" class="checkbox" id="checkbox-wrc">
+                        <p>WRC</p>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <div id="index-titulo">
         <div id="proximas-titulo">
             <h2>Próximas carreras</h2>
         </div>
-        
-        <div id="otro-titulo">
-            <h2>Próximamente</h2>
-        </div>
+    
     </div>
 
     <div id="index-container">
@@ -38,5 +88,6 @@
     <script src="../js/menu.js" defer></script>
     <script src="../js/proximasCarreras.js" defer></script>
     <script src="../js/cargarDatos.js" defer></script>
+    <script src="../js/filtro.js"></script>
 </body>
 </html>

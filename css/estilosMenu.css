@@ -87,3 +87,48 @@ a {
 .donation-link:hover {
     color: #f1f1f1;
 }
+
+
+@media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+
+    .menu a i {
+        display: none; /* Ocultar los íconos */
+    }
+    .menu {
+        width: 98%; /* El menú ocupa el 100% del ancho */
+        height: 50%; /* El menú ocupa el 100% de la altura */
+        left: -1100px;
+    }
+    .menu.active {
+        left: 0;
+    }
+    a {
+        text-decoration: none; /* Remueve subrayado */
+        color: black; /* Cambia el color del texto */
+    }
+    .close-button {
+        font-size: 80px;
+    }
+
+    /* Enlaces dentro del menú */
+    .menu a {
+        text-align: center;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 70px;
+        color: #818181;
+        align-items: center; /* Alinea el contenido verticalmente */
+        transition: 0.3s;
+    }
+
+    /* Espacio entre el ícono y el texto */
+    a i {
+        margin-right: 20px; /* Ajusta el espacio entre el ícono y el texto */
+    }
+
+
+
+
+}
+
+
