@@ -95,7 +95,7 @@ a {
         display: none; /* Ocultar los íconos */
     }
     .menu {
-        width: 80%; /* El menú ocupa el 100% del ancho */
+        width: 90%; /* El menú ocupa el 100% del ancho */
         height: 70%; /* El menú ocupa el 100% de la altura */
         left: -1100px;
     }
