@@ -141,3 +141,25 @@
 
 
 
+@media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+
+
+    #container{
+        display: inline;
+    }
+    .calendar-grid {
+        transform: translateX(-115%);/* Ajustar el desplazamiento */
+    }
+
+    .calendar-header {
+        width: 70%;
+    }
+
+    #calendar-container {
+        height: 400px; /* Ajusta la altura según tus necesidades */
+    }
+
+
+}
+
+
