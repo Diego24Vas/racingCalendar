@@ -73,41 +73,29 @@
 }
 
 /* Media Queries para pantallas de 1080x2400 y similares */
+/* Media Queries para pantallas de 1080x2400 y similares */
 @media (max-width: 1080px) and (max-aspect-ratio: 2400/1080) {
 
-    #filtro {
-        padding: 20px; /* Aumenta el tamaño del botón en pantallas más pequeñas */
-    }
-
     #filtro i {
+        margin-top: 20px;
         font-size: 40px; /* Aumenta el tamaño del ícono */
     }
 
     #dropdown-menu {
-        width: 50%; /* Ajusta el ancho del menú a un 90% en móviles */
+        width: 50%; /* Ajusta el ancho del menú a un 50% en móviles */
         right: 10px;  /* Ajusta la posición para que quede más centrado */
+        top: 5.5%; /* Subir el menú más arriba, ajusta este valor según lo necesites */
     }
-
-    .checkbox-icon {
-        width: 50%;  /* Ajusta el tamaño de las imágenes dentro del menú */
-        height: auto;
-    }
-
-    #dropdown-menu li {
-        padding: 15px 20px;  /* Aumenta el padding de los ítems dentro del menú */
-    }
-
-    #dropdown-menu input[type="checkbox"] {
-        transform: scale(1.4);  /* Agranda un poco más el tamaño del checkbox */
-    }
-
+    
     p {
-        font-size: 50px; /* Ajusta el tamaño del texto */
-        margin-left: 30px; /* Ajusta el margen izquierdo */
+        font-size: 30px; /* Ajusta el tamaño del texto */
+        margin-left: 20px; /* Ajusta el margen izquierdo */
     }
+
     input[type="checkbox"] {
         width: 40px;  /* Ajusta el ancho */
         height: 40px; /* Ajusta la altura */
     }
-
 }
+
+
