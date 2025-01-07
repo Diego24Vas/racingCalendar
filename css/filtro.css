@@ -83,7 +83,7 @@
     #dropdown-menu {
         width: 70%; /* Ajusta el ancho del menú a un 50% en móviles */
         right: 10px;  /* Ajusta la posición para que quede más centrado */
-        top: 5.5%; /* Subir el menú más arriba, ajusta este valor según lo necesites */
+        top: 15%; /* Subir el menú más arriba, ajusta este valor según lo necesites */
     }
     
     p {
