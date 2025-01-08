@@ -1,0 +1,53 @@
+#back-button {
+    position: absolute;
+    top: 11%;
+    left: 10px;
+}
+
+.back-button {
+    display: flex; /* Alinea ícono y texto en una fila */
+    align-items: center; /* Centra verticalmente ícono y texto */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #3982DB;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    gap: 8px; /* Espacio entre el ícono y el texto */
+}
+
+.back-button:hover {
+    background-color: #2c6bb2;
+    transform: translateY(-2px);
+}
+
+.back-button:active {
+    background-color: #1f4e7a;
+    transform: translateY(0);
+}
+
+.back-button i {
+    font-size: 20px; /* Tamaño del ícono */
+}
+
+.back-button span {
+    font-size: 16px; /* Tamaño del texto */
+    margin: 0; /* Sin márgenes adicionales */
+}
+
+
+
+
+@media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+    #back-button {
+        position: absolute;
+        top: 16.2%;
+        left: 10px;
+    }
+
+    span {
+        display: none;
+    }
+}

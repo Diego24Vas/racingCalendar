@@ -64,3 +64,10 @@
 #equipos-container div:hover {
     background-color: #e0e0e0; /* Cambia el color de fondo para oscurecerlo un poco */
 }
+
+
+@media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+    #titulo{
+        margin: 4% 10% 0% 10%;
+    }
+}

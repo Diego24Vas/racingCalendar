@@ -67,3 +67,12 @@
 
 
 
+@media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+    #titulo{
+
+        margin: 4% 10% 0 10%;
+        border-radius: 10px;
+        font-size: 1.2rem; 
+    
+    }
+}

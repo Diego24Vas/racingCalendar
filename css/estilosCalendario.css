@@ -9,7 +9,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
-    height: 510px; /* Ajusta la altura según tus necesidades */
+    height: 700px; /* Ajusta la altura según tus necesidades */
     overflow-y: auto; /* Habilita el scroll vertical */
 
 }
@@ -161,5 +161,3 @@
 
 
 }
-
-

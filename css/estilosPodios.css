@@ -116,3 +116,16 @@
     height: 35%;
 
 }
+
+
+
+@media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+    .container {
+        height: 75vh; /* Asegura que el contenedor ocupe la altura de la pantalla */
+    }   
+
+
+    .column {
+        flex: 0 0 370px; /* Cada columna tiene un ancho fijo de 300px (puedes ajustarlo) */
+    }
+}

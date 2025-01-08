@@ -4,7 +4,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
-    height: 510px; /* Ajusta la altura según tus necesidades */
+    height: 700px; /* Ajusta la altura según tus necesidades */
     overflow-y: auto; /* Habilita el scroll vertical */   
     
 }
@@ -33,13 +33,13 @@
 }
 
 .event-details img[src="../img/indycar.png"] {
-    width: 40%;
+    width: 10%;
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
     position: absolute; /* Permite mover la imagen libremente */
     top: 15%; /* Ajusta la posición superior */
-    left: 70%; /* Ajusta la posición izquierda */
+    left: 75%; /* Ajusta la posición izquierda */
     transform: translate(0, 0); /* Permite mover la imagen con respecto a su posición original */
 }
 
@@ -50,7 +50,7 @@
     border-radius: 5px;
     margin-top: 10px;
     position: absolute; /* Permite mover la imagen libremente */
-    top: 30%; /* Ajusta la posición superior */
+    top: 10%; /* Ajusta la posición superior */
     left: 70%; /* Ajusta la posición izquierda */
     transform: translate(0, 0); /* Permite mover la imagen con respecto a su posición original */
 }
@@ -74,6 +74,20 @@ img {
 }
 
 @media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+
+    #datosCarrera-container {
+        height:900px; /* Ajusta la altura según tus necesidades */
+    }
+
+
+    .event-details img {
+        top: 65%; /* Ajusta la posición superior */
+    }
+
+    .event-details img[src="../img/indycar.png"] {
+        top: 65%; /* Ajusta la posición superior */
+    }
+
 
 
 }
