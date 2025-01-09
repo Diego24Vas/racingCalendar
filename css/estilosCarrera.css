@@ -21,7 +21,7 @@
 
 .event-details h3 {
     position: absolute;
-    transform: translate(30px, -170%);
+    transform: translate(0px, -170%);
 
     color: #333;
 }
@@ -33,30 +33,35 @@
 }
 
 .event-details img[src="../img/indycar.png"] {
-    width: 14%;
+    width: 11%;
     height: auto;
     margin-top: 10px;
     position: absolute; /* Permite mover la imagen libremente */
-    top: 15%; /* Ajusta la posición superior */
-    left: 75%; /* Ajusta la posición izquierda */
+    top: 10%; /* Ajusta la posición superior */
+    left: 60%; /* Ajusta la posición izquierda */
     transform: translate(0, 0); /* Permite mover la imagen con respecto a su posición original */
 }
 
 
 .event-details img {
-    width: 40%;
+    width: 20%;
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
     position: absolute; /* Permite mover la imagen libremente */
-    top: 10%; /* Ajusta la posición superior */
-    left: 70%; /* Ajusta la posición izquierda */
+    top: 15%; /* Ajusta la posición superior */
+    left: 60%; /* Ajusta la posición izquierda */
     transform: translate(0, 0); /* Permite mover la imagen con respecto a su posición original */
 }
 
 
 
-
+span {
+    position: absolute;
+    transform: translate(400px, 280%) scale(5);
+    border: 0.5px solid black;
+    
+}
 
 
 .event-divider {
@@ -80,11 +85,23 @@ img {
 
 
     .event-details img {
+        position: absolute;
         top: 65%; /* Ajusta la posición superior */
+        left: 75%; /* Ajusta la posición izquierda */
     }
 
     .event-details img[src="../img/indycar.png"] {
-        top: 65%; /* Ajusta la posición superior */
+        width: 15%;
+        height: auto;
+        top: 60%; /* Ajusta la posición superior */
+        left: 80%;
+    }
+
+    span {
+        position: absolute;
+        transform: translate(265px, 50%) scale(2);
+        border: 0.5px solid black;
+        
     }
 
 
