@@ -9,7 +9,6 @@ const jsonFiles = [
     '../json/calendarioINDY_2025.json',
     '../json/calendarioWRC_2025.json',
     '../json/calendarioWEC_2025.json'
-
 ];
 
 // Cargar todos los archivos JSON y combinar los eventos
@@ -20,7 +19,8 @@ Promise.all(jsonFiles.map(file => fetch(file).then(response => response.json()))
       events = events.concat(data.carreras);  // Asumimos que cada JSON tiene la clave 'carreras'
     });
     console.log('Loaded Events:', events); // Verificar que los eventos se carguen correctamente
-    showCurrentMonthRaces();  // Llamar a showCurrentMonthRaces después de cargar los datos
+
+    // Crear el calendario después de cargar los datos
     const today = new Date();
     createCalendar(today.getFullYear(), today.getMonth());
   })

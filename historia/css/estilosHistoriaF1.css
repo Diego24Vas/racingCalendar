@@ -1,0 +1,99 @@
+#container-historia {
+    display: grid;
+    gap: 20px; /* Espacio entre las columnas */
+    margin-top: 30px; /* Margen superior del contenido */
+    height: 800px;
+}
+
+/* Estilo para la columna de la izquierda */
+.wiki-container {
+    background-color: #f0f0f0;
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+
+
+.accordion {
+    background-color: #d7d7d7;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    max-width: 1100px; /* Establece el límite de ancho */
+    margin: 5px auto; /* Centra los elementos */
+    border: none;
+    text-align: left;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+/* Efecto de hover para el título */
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Panel que contiene el contenido oculto */
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    width: 100%; /* Asegura que el panel tenga el mismo ancho que el título */
+    max-width: 1090px; /* Igual que el título para que esté alineado */
+    margin: 0 auto; /* Centra el panel */
+    height: 0; /* Inicialmente, el panel tiene altura 0 */
+    opacity: 0; /* Inicialmente, el panel está invisible */
+    transition: height 0.5s ease, opacity 0.5s ease; /* Animación para la altura y la opacidad */
+    border-radius: 10px;
+    
+}
+
+/* Estilo cuando el título es clickeado */
+.accordion.active {
+    background-color: #ccc;
+}
+
+/* Mostrar el panel al hacer clic en el título */
+.accordion.active + .panel {
+    display: block;
+    height: auto; /* Deja que el panel ocupe su altura natural */
+    opacity: 1; /* El panel se hace visible */
+}
+
+
+
+
+#img-logos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px; /* Espacio entre los logos */
+}
+
+
+#img-logos img[src="../img/logosF1/segundo.png"] {
+    width: 100px; /* Ancho de los logos */
+    height: auto; /* Mantiene la proporción */
+}
+
+#img-logos img {
+    width: 100px; /* Ancho de los logos */
+    height: auto; /* Mantiene la proporción */
+}
+
+
+
+p {
+    font-family: 'Roboto', sans-serif; /* Fuente elegante y legible */
+    font-size: 18px; /* Tamaño de texto cómodo */
+    line-height: 1.8; /* Espaciado entre líneas */
+    color: #333; /* Texto en un gris oscuro suave */
+    padding: 15px; /* Espaciado interno */  
+    text-align: justify; /* Justificación del texto */
+    max-width: 900px; /* Limita el ancho del párrafo */
+    margin: 20px auto; /* Centra el párrafo */
+}
+
+

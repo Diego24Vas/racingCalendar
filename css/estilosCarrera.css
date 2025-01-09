@@ -33,9 +33,8 @@
 }
 
 .event-details img[src="../img/indycar.png"] {
-    width: 10%;
+    width: 14%;
     height: auto;
-    border-radius: 5px;
     margin-top: 10px;
     position: absolute; /* Permite mover la imagen libremente */
     top: 15%; /* Ajusta la posición superior */

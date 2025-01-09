@@ -9,7 +9,7 @@
 }
 
 /* Contenedor de próximas carreras */
-#proximas-carreras {
+#carreras-mes {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -22,10 +22,13 @@
     min-width: 250px;
     max-height: 100%;
     overflow-y: auto;
+    overflow-y: auto; /* Habilita el scroll vertical */ 
+    height: 650px; /* Ajusta la altura según tus necesidades */
+    margin-top: 50px;
 }
 
 /* Contenedor de otro */
-#otro {
+#carreras-semana {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -38,6 +41,7 @@
     min-width: 350px;
     max-height: 100%;
     overflow-y: auto;
+    margin-top: 50px;
 }
 
 #index-titulo{
@@ -46,6 +50,39 @@
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
+    position: absolute;
+    top: 0px;
+    right: 750px;
+
+}
+
+#titulo-semana {
+    display: flex;
+    flex-direction: row; /* Asegura que los elementos estén en línea */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    text-align: center;
+    position: absolute;
+    top: 95px;
+    right: 250px;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-top: 0%;
+    color: #737070;
+    white-space: nowrap; /* Evita que las palabras se dividan en múltiples líneas */
+}
+
+#titulo-mes{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 95px;
+    right: -600px;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-top: 0%;
+    color: #737070;
+
 }
 
 
@@ -89,12 +126,24 @@
 
 /* Imagen dentro de las tarjetas */
 .event-details img {
-    width: 100%;
+    width: 40%;
     max-width: 300px;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 10px;
+    margin: 20px 0 10px 0;
+
 }
+
+
+
+.event-details-fin p {
+    align-items: center2;
+}
+
+
+
+
+
 
 
 
@@ -109,21 +158,42 @@
         padding: 10px; /* Reduce el padding general */
     }
 
-    #proximas-carreras,
-    #otro {
+    #carreras-mes,
+    #carreras-semana {
+        margin-top:60px ;
         flex: 1; /* Ambos contenedores ocupan el 100% del ancho */
         min-width: auto;
         padding: 15px; /* Reduce el padding interno */
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce la sombra */
     }
 
-    #index-titulo{
-        text-align: center;
-        margin-bottom: 20px;
-        font-size: 2em;
-        font-weight: bold;
-        color: #333;
+    #carreras-semana{
+        margin-top: 90px;
     }
+
+
+
+
+    #index-titulo{
+        top: 90px;
+        right: 20px;
+    
+    }
+
+
+    #titulo-semana {
+        top: 85px;
+        right: 80px;
+        font-size: 0.5em;
+
+    }
+
+    #titulo-mes{
+        top: 250px;
+        right: 95px;
+        font-size: 0.5em;
+    }
+
 
     .event-details {
         padding: 10px; /* Reduce el padding interno de las tarjetas */
@@ -131,42 +201,18 @@
     }
 
     .event-details h3 {
-        font-size: 4em; /* Ajusta el tamaño del título */
+        font-size: 1.5em; /* Ajusta el tamaño del título */
     }
 
     .event-details p {
-        font-size: 3em; /* Ajusta el tamaño del texto */
+        font-size: 1em; /* Ajusta el tamaño del texto */
     }
 
     .event-details img {
-        margin-top: 50px;
-        margin-bottom: 20px;
-        max-width: 30%; /* Asegura que las imágenes no excedan el ancho */
+        margin: 20px 0 10px 0 ;
+        height: 50px;
+        width: auto;
 
     }
 }
 
-/* Ajustes para pantallas aún más pequeñas (extra seguridad) */
-@media (max-width: 768px) {
-    #index-container {
-        flex-direction: column;
-    }
-
-    #proximas-carreras,
-    #otro {
-        flex: 1;
-        min-width: auto;
-    }
-
-    .event-details {
-        padding: 8px;
-    }
-
-    .event-details h3 {
-        font-size: 0.9em;
-    }
-
-    .event-details p {
-        font-size: 0.8em;
-    }
-}
