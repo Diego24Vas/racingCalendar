@@ -157,8 +157,8 @@
             {
             "nombre": "Carrera Puntuable",
             "fecha": "15/06/2025",
-            "pais": "USA",
-            "code_pais": "us",
+            "pais": "México",
+            "code_pais": "mx",
             "circuito": "Autódromo Hermanos Rodríguez en Ciudad de México",
             "imagen": "../img/nascar.png"
             },
