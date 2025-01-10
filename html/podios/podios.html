@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilosGeneral.css">
-    <link rel="stylesheet" href="../css/estilosCabeza.css">
-    <link rel="stylesheet" href="../css/estilosMenu.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilosPodios.css">
+    <link rel="stylesheet" href="../../css/global/general.css">
+    <link rel="stylesheet" href="../../css/global/header.css">
+    <link rel="stylesheet" href="../../css/global/menu_desplegable.css">
+    <link rel="stylesheet" href="../../css/pages/podios.css">
 
-    <link rel="stylesheet" href="../css/contruccionPage.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/components/contruccionPage.css">
 
     <title>Podios</title>
 </head>
@@ -25,7 +26,7 @@
         <div class="column" id="podios-f1">
 
             <div id="img-logo">
-                <img class="logo-container" src="../img/f1.png" alt="F1 Logo">
+                <img class="logo-container" src="../../img/f1.png" alt="F1 Logo">
             </div>
             <div id="medio">
                 <div id = "segundo-podio"class="podio"></div>
@@ -39,7 +40,7 @@
 
         <div class="column" id="podios-f2">
             <div id="img-logo">
-                <img class="logo-container" src="../img/f2.png" alt="F1 Logo">
+                <img class="logo-container" src="../../img/f2.png" alt="F1 Logo">
             </div>
             <div id="medio">
                 <div id = "segundo-podio"class="podio"></div>
@@ -54,7 +55,7 @@
 
         <div class="column" id="podios-fe">
             <div id="img-logo">
-                <img class="logo-container" src="../img/fe.png" alt="F1 Logo">
+                <img class="logo-container" src="../../img/fe.png" alt="F1 Logo">
             </div>
             <div id="medio">
                 <div id = "segundo-podio"class="podio"></div>
@@ -68,7 +69,7 @@
         
         <div class="column" id="podios-indycar">
             <div id="img-logo-indy">
-                <img class="logo-container" src="../img/indycar.png" alt="F1 Logo">
+                <img class="logo-container" src="../../img/indycar.png" alt="F1 Logo">
             </div>            <div id="medio">
                 <div id = "segundo-podio"class="podio"></div>
                 <div id = "primer-podio" class="podio"></div>
@@ -80,7 +81,7 @@
 
         <div class="column" id="podios-nascar">
             <div id="img-logo">
-                <img class="logo-container" src="../img/nascar.png" alt="F1 Logo">
+                <img class="logo-container" src="../../img/nascar.png" alt="F1 Logo">
             </div>
             <div id="medio">
                 <div id = "segundo-podio"class="podio"></div>
@@ -93,8 +94,10 @@
     </div>
     
 
-    <script src="../js/loadHeader.js"></script>
-    <script src="../js/menu.js"></script>
+    <script src="../../js/utils/loadHeader.js"></script>
+    <script src="../../js/components/header.js"></script>
+
+
     <script>
         const container = document.querySelector('.container');
         container.addEventListener('wheel', (event) => {

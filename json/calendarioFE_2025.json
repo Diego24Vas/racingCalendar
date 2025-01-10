@@ -6,7 +6,7 @@
             "fecha": "11/01/2025",
             "pais": "Mexico",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "mx"
         },
         {
@@ -14,7 +14,7 @@
             "fecha": "14/02/2025",
             "pais": "Arabia Saudita",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "sa"
         },
         {
@@ -22,7 +22,7 @@
             "fecha": "15/02/2025",
             "pais": "Arabia Saudita",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "sa"
         },
         {
@@ -30,7 +30,7 @@
             "fecha": "12/04/2025",
             "pais": "USA",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "us"
         },
         {
@@ -38,7 +38,7 @@
             "fecha": "03/05/2025",
             "pais": "Monaco",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "mc"
         },
         {
@@ -46,7 +46,7 @@
             "fecha": "04/05/2025",
             "pais": "Monaco",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "mc"
         },
         {
@@ -54,7 +54,7 @@
             "fecha": "17/05/2025",
             "pais": "Japón",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "jp"
         },
         {
@@ -62,7 +62,7 @@
             "fecha": "18/05/2025",
             "pais": "Japón",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "jp"
         },
         {
@@ -70,7 +70,7 @@
             "fecha": "31/05/2025",
             "pais": "China",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "cn"
         },
         {
@@ -78,7 +78,7 @@
             "fecha": "01/06/2025",
             "pais": "China",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "cn"
         },
         {
@@ -86,7 +86,7 @@
             "fecha": "21/06/2025",
             "pais": "Indonesia",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "id"
         },
         {
@@ -94,7 +94,7 @@
             "fecha": "12/07/2025",
             "pais": "Alemania",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "de"
         },
         {
@@ -102,7 +102,7 @@
             "fecha": "13/07/2025",
             "pais": "Alemania",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "de"
         },
         {
@@ -110,7 +110,7 @@
             "fecha": "26/07/2025",
             "pais": "Inglaterra",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "gb"
         },
         {
@@ -118,7 +118,7 @@
             "fecha": "27/07/2025",
             "pais": "Inglaterra",
             "circuito": "N/A",
-            "imagen": "../img/fe.png",
+            "imagen": "../../img/fe.png",
             "code_pais": "gb"
         }
     ]

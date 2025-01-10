@@ -7,7 +7,7 @@
         "pais": "Mónaco",
         "code_pais": "mc",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Suecia",
@@ -15,7 +15,7 @@
         "pais": "Suecia",
         "code_pais": "se",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Kenia",
@@ -23,7 +23,7 @@
         "pais": "Kenia",
         "code_pais": "ke",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Croacia",
@@ -31,7 +31,7 @@
         "pais": "Croacia",
         "code_pais": "hr",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Portugal",
@@ -39,7 +39,7 @@
         "pais": "Portugal",
         "code_pais": "pt",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Italia",
@@ -47,7 +47,7 @@
         "pais": "Italia",
         "code_pais": "it",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Polonia",
@@ -55,7 +55,7 @@
         "pais": "Polonia",
         "code_pais": "pl",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Letonia",
@@ -63,7 +63,7 @@
         "pais": "Letonia",
         "code_pais": "lv",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Finlandia",
@@ -71,7 +71,7 @@
         "pais": "Finlandia",
         "code_pais": "fi",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Grecia",
@@ -79,7 +79,7 @@
         "pais": "Grecia",
         "code_pais": "gr",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Chile",
@@ -87,7 +87,7 @@
         "pais": "Chile",
         "code_pais": "cl",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally Europa Central",
@@ -95,7 +95,7 @@
         "pais": "Europa Central",
         "code_pais": "eu",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       },
       {
         "nombre": "Rally de Japón",
@@ -103,7 +103,7 @@
         "pais": "Japón",
         "code_pais": "jp",
         "circuito": "N/A",
-        "imagen": "../img/wrc.png"
+        "imagen": "../../img/wrc.png"
       }
     ]
   }

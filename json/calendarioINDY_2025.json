@@ -7,7 +7,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito urbano",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Thermal Club",
@@ -15,7 +15,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito mixto",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Long Beach",
@@ -23,7 +23,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito urbano",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Barber Motorsports Park",
@@ -31,7 +31,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito mixto",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Indianápolis",
@@ -39,7 +39,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito mixto",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "500 Millas de Indianápolis",
@@ -47,7 +47,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Óvalo",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Detroit",
@@ -55,7 +55,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito urbano",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Circuito World Wide Technology",
@@ -63,7 +63,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Óvalo",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Road America",
@@ -71,7 +71,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito mixto",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Mid-Ohio",
@@ -79,7 +79,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito mixto",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Circuito de Iowa",
@@ -87,7 +87,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Óvalo",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Iowa Speedway",
@@ -95,7 +95,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Óvalo",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Toronto",
@@ -103,7 +103,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito urbano",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Laguna Seca",
@@ -111,7 +111,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito mixto",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Portland",
@@ -119,7 +119,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito mixto",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Milla de Milwaukee",
@@ -127,7 +127,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Óvalo",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         },
         {
             "nombre": "Nashville Superspeedway",
@@ -135,7 +135,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Óvalo",
-            "imagen": "../img/indycar.png"
+            "imagen": "../../img/indycar.png"
         }
     ]
 }

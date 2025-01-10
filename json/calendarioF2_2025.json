@@ -7,7 +7,7 @@
             "pais": "Australia",
             "code_pais": "au",
             "circuito": "Melbourne",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Sakhir",
@@ -15,7 +15,7 @@
             "pais": "Bahrein",
             "code_pais": "bh",
             "circuito": "Sakhir",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Jeddah",
@@ -23,7 +23,7 @@
             "pais": "Arabia Saudí",
             "code_pais": "sa",
             "circuito": "Jeddah",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Imola",
@@ -31,7 +31,7 @@
             "pais": "Italia",
             "code_pais": "it",
             "circuito": "Imola",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Monte-Carlo",
@@ -39,7 +39,7 @@
             "pais": "Mónaco",
             "code_pais": "mc",
             "circuito": "Monte-Carlo",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Barcelona",
@@ -47,7 +47,7 @@
             "pais": "España",
             "code_pais": "es",
             "circuito": "Barcelona",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Spielberg",
@@ -55,7 +55,7 @@
             "pais": "Austria",
             "code_pais": "at",
             "circuito": "Spielberg",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Silverstone",
@@ -63,7 +63,7 @@
             "pais": "Gran Bretaña",
             "code_pais": "gb",
             "circuito": "Silverstone",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Spa-Francorchamps",
@@ -71,7 +71,7 @@
             "pais": "Bélgica",
             "code_pais": "be",
             "circuito": "Spa-Francorchamps",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Budapest",
@@ -79,7 +79,7 @@
             "pais": "Hungría",
             "code_pais": "hu",
             "circuito": "Budapest",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Monza",
@@ -87,7 +87,7 @@
             "pais": "Italia",
             "code_pais": "it",
             "circuito": "Monza",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Bakú",
@@ -95,7 +95,7 @@
             "pais": "Azerbaiyán",
             "code_pais": "az",
             "circuito": "Bakú",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Lusail",
@@ -103,7 +103,7 @@
             "pais": "Qatar",
             "code_pais": "qa",
             "circuito": "Lusail",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             },
             {
             "nombre": "Yas Marina",
@@ -111,7 +111,7 @@
             "pais": "EAU",
             "code_pais": "ae",
             "circuito": "Yas Marina",
-            "imagen": "../img/f2.png"
+            "imagen": "../../img/f2.png"
             }
           ]
 }

@@ -8,7 +8,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Choque en el Estadio Bowman Gray",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -16,7 +16,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Duelos en el Daytona International Speedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -24,7 +24,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Daytona 500 en el Daytona International Speedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -32,7 +32,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Autódromo de Atlanta",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -40,7 +40,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito de las Américas",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -48,7 +48,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito de Phoenix",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -56,7 +56,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito de Las Vegas",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -64,7 +64,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Homestead-Miami Speedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -72,7 +72,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito de Martinsville",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -80,7 +80,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito de Darlington",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -88,7 +88,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Bristol Motor Speedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -96,7 +96,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "DESCANSO DE PASCUA",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -104,7 +104,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Talladega Superspeedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -112,7 +112,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Texas Motor Speedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -120,7 +120,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito de Kansas",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -128,7 +128,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Carrera All-Star en el North Wilkesboro Speedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -136,7 +136,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Coca-Cola 600 en el Charlotte Motor Speedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -144,7 +144,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Nashville Superspeedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -152,7 +152,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito Internacional de Michigan",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -160,7 +160,7 @@
             "pais": "México",
             "code_pais": "mx",
             "circuito": "Autódromo Hermanos Rodríguez en Ciudad de México",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -168,7 +168,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito de Pocono",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -176,7 +176,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Atlanta Motor Speedway",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -184,7 +184,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito urbano de Chicago",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
             "nombre": "Carrera Puntuable",
@@ -192,7 +192,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Circuito de Sonoma",
-            "imagen": "../img/nascar.png"
+            "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Puntuable",
@@ -200,7 +200,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Circuito de Dover",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Puntuable",
@@ -208,7 +208,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Brickyard 400 en el Indianapolis Motor Speedway",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Puntuable",
@@ -216,7 +216,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Circuito de Iowa",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Puntuable",
@@ -224,7 +224,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Watkins Glen Internacional",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Puntuable",
@@ -232,7 +232,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Circuito de Richmond",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Puntuable",
@@ -240,7 +240,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Circuito Internacional de Daytona",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Eliminatoria",
@@ -248,7 +248,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Southern 500 en Darlington Raceway",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Eliminatoria",
@@ -256,7 +256,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "WWT Raceway (Gateway)",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Eliminatoria",
@@ -264,7 +264,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Bristol Motor Speedway",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Eliminatoria",
@@ -272,7 +272,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "New Hampshire Motor Speedway",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Eliminatoria",
@@ -280,7 +280,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Kansas Speedway",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Eliminatoria",
@@ -288,7 +288,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Charlotte Motor Speedway ROVAL",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Eliminatoria",
@@ -296,7 +296,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Las Vegas Motor Speedway",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Eliminatoria",
@@ -304,7 +304,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Talladega Superspeedway",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Eliminatoria",
@@ -312,7 +312,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Martinsville Speedway",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             },
             {
               "nombre": "Carrera Final",
@@ -320,7 +320,7 @@
               "pais": "USA",
               "code_pais": "us",
               "circuito": "Phoenix Raceway",
-              "imagen": "../img/nascar.png"
+              "imagen": "../../img/nascar.png"
             }
     ]
 }   

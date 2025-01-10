@@ -7,7 +7,7 @@
         "pais": "Qatar",
         "code_pais": "qa",
         "circuito": "Losail",
-        "imagen": "../img/wec.png"
+        "imagen": "../../img/wec.png"
       },
       {
         "nombre": "Imola",
@@ -15,7 +15,7 @@
         "pais": "Italy",
         "code_pais": "it",
         "circuito": "Imola",
-        "imagen": "../img/wec.png"
+        "imagen": "../../img/wec.png"
       },
       {
         "nombre": "Spa",
@@ -23,7 +23,7 @@
         "pais": "Belgium",
         "code_pais": "be",
         "circuito": "Spa",
-        "imagen": "../img/wec.png"
+        "imagen": "../../img/wec.png"
       },
       {
         "nombre": "Le Mans",
@@ -31,7 +31,7 @@
         "pais": "France",
         "code_pais": "fr",
         "circuito": "Le Mans",
-        "imagen": "../img/wec.png"
+        "imagen": "../../img/wec.png"
       },
       {
         "nombre": "Interlagos",
@@ -39,7 +39,7 @@
         "pais": "Brazil",
         "code_pais": "br",
         "circuito": "Interlagos",
-        "imagen": "../img/wec.png"
+        "imagen": "../../img/wec.png"
       },
       {
         "nombre": "Austin",
@@ -47,7 +47,7 @@
         "pais": "United States",
         "code_pais": "us",
         "circuito": "Austin",
-        "imagen": "../img/wec.png"
+        "imagen": "../../img/wec.png"
       },
       {
         "nombre": "Fuji",
@@ -55,7 +55,7 @@
         "pais": "Japan",
         "code_pais": "jp",
         "circuito": "Fuji",
-        "imagen": "../img/wec.png"
+        "imagen": "../../img/wec.png"
       },
       {
         "nombre": "Bahrein",
@@ -63,7 +63,7 @@
         "pais": "Bahrain",
         "code_pais": "bh",
         "circuito": "Bahrein",
-        "imagen": "../img/wec.png"
+        "imagen": "../../img/wec.png"
       }
     ]
   }

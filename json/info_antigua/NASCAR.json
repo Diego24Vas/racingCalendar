@@ -7,7 +7,7 @@
         "hora_chile": "17:00",
         "tipo": "Exhibición",
         "circuito": "Los Angeles Memorial Coliseum",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Daytona 500",
@@ -15,7 +15,7 @@
         "hora_chile": "16:30",
         "tipo": "Temporada Regular",
         "circuito": "Daytona International Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Atlanta 400",
@@ -23,7 +23,7 @@
         "hora_chile": "17:00",
         "tipo": "Temporada Regular",
         "circuito": "Atlanta Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Las Vegas 400",
@@ -31,7 +31,7 @@
         "hora_chile": "17:30",
         "tipo": "Temporada Regular",
         "circuito": "Las Vegas Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Phoenix 500",
@@ -39,7 +39,7 @@
         "hora_chile": "17:30",
         "tipo": "Temporada Regular",
         "circuito": "Phoenix Raceway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Bristol Dirt Race",
@@ -47,7 +47,7 @@
         "hora_chile": "17:30",
         "tipo": "Temporada Regular",
         "circuito": "Bristol Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Circuit of The Americas",
@@ -55,7 +55,7 @@
         "hora_chile": "17:30",
         "tipo": "Temporada Regular",
         "circuito": "Circuit of The Americas",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Richmond 400",
@@ -63,7 +63,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "Richmond Raceway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Martinsville 400",
@@ -71,7 +71,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "Martinsville Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Texas 500",
@@ -79,7 +79,7 @@
         "hora_chile": "17:30",
         "tipo": "Temporada Regular",
         "circuito": "Texas Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Talladega 500",
@@ -87,7 +87,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "Talladega Superspeedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Dover 400",
@@ -95,7 +95,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "Dover Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Kansas 400",
@@ -103,7 +103,7 @@
         "hora_chile": "17:00",
         "tipo": "Temporada Regular",
         "circuito": "Kansas Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Darlington 400",
@@ -111,7 +111,7 @@
         "hora_chile": "17:00",
         "tipo": "Temporada Regular",
         "circuito": "Darlington Raceway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "North Wilkesboro All-Star Race",
@@ -119,7 +119,7 @@
         "hora_chile": "16:00",
         "tipo": "Exhibición",
         "circuito": "North Wilkesboro Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Charlotte 600",
@@ -127,7 +127,7 @@
         "hora_chile": "18:00",
         "tipo": "Temporada Regular",
         "circuito": "Charlotte Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Gateway 300",
@@ -135,7 +135,7 @@
         "hora_chile": "17:30",
         "tipo": "Temporada Regular",
         "circuito": "World Wide Technology Raceway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Sonoma 350",
@@ -143,7 +143,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "Sonoma Raceway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "New Hampshire 301",
@@ -151,7 +151,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "New Hampshire Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Nashville 400",
@@ -159,7 +159,7 @@
         "hora_chile": "17:00",
         "tipo": "Temporada Regular",
         "circuito": "Nashville Superspeedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Chicago Street Race",
@@ -167,7 +167,7 @@
         "hora_chile": "17:30",
         "tipo": "Temporada Regular",
         "circuito": "Chicago Street Course",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Atlanta 400",
@@ -175,7 +175,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "Atlanta Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "New Hampshire 301",
@@ -183,7 +183,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "New Hampshire Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Pocono 400",
@@ -191,7 +191,7 @@
         "hora_chile": "16:30",
         "tipo": "Temporada Regular",
         "circuito": "Pocono Raceway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Richmond 400",
@@ -199,7 +199,7 @@
         "hora_chile": "17:00",
         "tipo": "Temporada Regular",
         "circuito": "Richmond Raceway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Michigan 400",
@@ -207,7 +207,7 @@
         "hora_chile": "16:30",
         "tipo": "Temporada Regular",
         "circuito": "Michigan International Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Indianapolis Road Course",
@@ -215,7 +215,7 @@
         "hora_chile": "16:30",
         "tipo": "Temporada Regular",
         "circuito": "Indianapolis Motor Speedway Road Course",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Watkins Glen 355",
@@ -223,7 +223,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "Watkins Glen International",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Daytona 400",
@@ -231,7 +231,7 @@
         "hora_chile": "16:00",
         "tipo": "Temporada Regular",
         "circuito": "Daytona International Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Darlington Southern 500",
@@ -239,7 +239,7 @@
         "hora_chile": "18:00",
         "tipo": "Playoffs - Round of 16",
         "circuito": "Darlington Raceway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Kansas 400",
@@ -247,7 +247,7 @@
         "hora_chile": "17:00",
         "tipo": "Playoffs - Round of 16",
         "circuito": "Kansas Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Bristol Night Race",
@@ -255,7 +255,7 @@
         "hora_chile": "19:30",
         "tipo": "Playoffs - Round of 16",
         "circuito": "Bristol Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Texas 500",
@@ -263,7 +263,7 @@
         "hora_chile": "17:30",
         "tipo": "Playoffs - Round of 12",
         "circuito": "Texas Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Talladega 500",
@@ -271,7 +271,7 @@
         "hora_chile": "16:00",
         "tipo": "Playoffs - Round of 12",
         "circuito": "Talladega Superspeedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Charlotte Roval 400",
@@ -279,7 +279,7 @@
         "hora_chile": "16:00",
         "tipo": "Playoffs - Round of 12",
         "circuito": "Charlotte Motor Speedway Roval",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Las Vegas 400",
@@ -287,7 +287,7 @@
         "hora_chile": "16:30",
         "tipo": "Playoffs - Round of 8",
         "circuito": "Las Vegas Motor Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Homestead-Miami 400",
@@ -295,7 +295,7 @@
         "hora_chile": "16:30",
         "tipo": "Playoffs - Round of 8",
         "circuito": "Homestead-Miami Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Martinsville 500",
@@ -303,7 +303,7 @@
         "hora_chile": "16:00",
         "tipo": "Playoffs - Round of 8",
         "circuito": "Martinsville Speedway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       },
       {
         "nombre": "Phoenix 500",
@@ -311,7 +311,7 @@
         "hora_chile": "17:00",
         "tipo": "Championship 4",
         "circuito": "Phoenix Raceway",
-        "imagen": "../img/nascar.png"
+        "imagen": "../../img/nascar.png"
       }
     ]
   }

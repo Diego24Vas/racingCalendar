@@ -7,7 +7,7 @@
             "pais": "Australia",
             "code_pais": "au",
             "circuito": "Melbourne",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de China",
@@ -15,7 +15,7 @@
             "pais": "China",
             "code_pais": "cn",
             "circuito": "Shanghai",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Japón",
@@ -23,7 +23,7 @@
             "pais": "Japan",
             "code_pais": "jp",
             "circuito": "Suzuka",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Bahrain",
@@ -31,7 +31,7 @@
             "pais": "Bahrain",
             "code_pais": "bh",
             "circuito": "Sakhir",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Arabia Saudita",
@@ -39,7 +39,7 @@
             "pais": "Saudi Arabia",
             "code_pais": "sa",
             "circuito": "Jeddah",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Abu Dhabi",
@@ -47,7 +47,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Miami",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Emilia Romagna",
@@ -55,7 +55,7 @@
             "pais": "Italy",
             "code_pais": "it",
             "circuito": "Imola",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Monaco",
@@ -63,7 +63,7 @@
             "pais": "Monaco",
             "code_pais": "mc",
             "circuito": "Monaco",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de España",
@@ -71,7 +71,7 @@
             "pais": "Spain",
             "code_pais": "es",
             "circuito": "Barcelona",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Canada",
@@ -79,7 +79,7 @@
             "pais": "Canada",
             "code_pais": "ca",
             "circuito": "Montreal",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Austria",
@@ -87,7 +87,7 @@
             "pais": "Austria",
             "code_pais": "at",
             "circuito": "Spielberg",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Gran Bretaña",
@@ -95,7 +95,7 @@
             "pais": "United Kingdom",
             "code_pais": "gb",
             "circuito": "Silverstone",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Belgica",
@@ -103,7 +103,7 @@
             "pais": "Belgium",
             "code_pais": "be",
             "circuito": "Spa",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Holanda",
@@ -111,7 +111,7 @@
             "pais": "Hungary",
             "code_pais": "hu",
             "circuito": "Budapest",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de los paises bajos",
@@ -119,7 +119,7 @@
             "pais": "Netherlands",
             "code_pais": "nl",
             "circuito": "Zandvoort",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Italia",
@@ -127,7 +127,7 @@
             "pais": "Italy",
             "code_pais": "it",
             "circuito": "Monza",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Baku",
@@ -135,7 +135,7 @@
             "pais": "Azerbaijan",
             "code_pais": "az",
             "circuito": "Baku",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Singapur",
@@ -143,7 +143,7 @@
             "pais": "Singapore",
             "code_pais": "sg",
             "circuito": "Singapore",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Austin",
@@ -151,7 +151,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Austin",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Mexico",
@@ -159,7 +159,7 @@
             "pais": "Mexico",
             "code_pais": "mx",
             "circuito": "Mexico City",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Brasil",
@@ -167,7 +167,7 @@
             "pais": "Brazil",
             "code_pais": "br",
             "circuito": "Sao Paulo",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Las Vegas",
@@ -175,7 +175,7 @@
             "pais": "USA",
             "code_pais": "us",
             "circuito": "Las Vegas",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Qatar",
@@ -183,7 +183,7 @@
             "pais": "Qatar",
             "code_pais": "qa",
             "circuito": "Lusail",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         },
         {
             "nombre": "Gran Premio de Abu Dhabi",
@@ -191,7 +191,7 @@
             "pais": "Abu Dhabi",
             "code_pais": "ae",
             "circuito": "Yas Marina",
-            "imagen": "../img/f1.png"
+            "imagen": "../../img/f1.png"
         }
     ]
 }

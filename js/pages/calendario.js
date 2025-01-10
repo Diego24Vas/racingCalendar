@@ -1,4 +1,4 @@
-console.log("Archivo calendario.js cargado");
+console.log("Archivo pages/calendario.js cargado");
 
 const calendarContainer = document.getElementById('calendar-container');
 
