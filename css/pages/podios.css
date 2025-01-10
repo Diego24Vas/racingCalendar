@@ -1,3 +1,6 @@
+/* Estilos para la página de podios */
+
+
 .container {
     display: flex; /* Habilita flexbox para organizar los divs en fila */
     flex-direction: row; /* Los hijos estarán en fila horizontal */
