@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="../../css/global/general.css">
     <link rel="stylesheet" href="../../css/global/header.css">
     <link rel="stylesheet" href="../../css/global/menu_desplegable.css">
@@ -10,13 +12,20 @@
     <link rel="stylesheet" href="../../css/components/botonAtras.css">
     <link rel="stylesheet" href="../../css/components/swiches.css">
 
+    <!-- Estilos Framework Íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
     <title>Proximamente...</title>
 
 </head>
+
+
 <body>
+
+    <!-- Contenedor donde se cargará el header -->
     <div id="header-container"></div>
 
+    <!-- Icono del Loader -->
     <div id="swich">
         <label for="filter" class="switch" aria-label="Toggle Filter">
             <input type="checkbox" id="filter" />
@@ -25,16 +34,20 @@
         </label>
     </div>
 
+    <!-- Contenedor de la información de los pilotos -->
     <div id="pilotos-info">
         <!-- Información de Pilotos -->
         <p>Información de Pilotos</p>
     </div>
 
+
+    <!-- Contenedor de la información de las escuderías -->
     <div id="escuderias-info" style="display: none;">
         <!-- Información de Escuderías -->
         <p>Información de Escuderías</p>
     </div>
 
+    <!-- Scripts -->
     <script src="../js/utils/loadHeader.js"></script>
     <script src="../js/components/header.js"></script>
     <script src="../js/components/swiches.js "></script>

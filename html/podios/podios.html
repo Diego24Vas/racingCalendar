@@ -3,41 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="../../css/components/contruccionPage.css">
     <link rel="stylesheet" href="../../css/global/general.css">
     <link rel="stylesheet" href="../../css/global/header.css">
     <link rel="stylesheet" href="../../css/global/menu_desplegable.css">
     <link rel="stylesheet" href="../../css/pages/podios.css">
 
+    <!-- Estilos Framework Íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="../../css/components/contruccionPage.css">
 
     <title>Podios</title>
 </head>
+
+
 <body>
+
+    <!-- Contenedor donde se cargará el header-->
     <div id="header-container"></div>
 
+    <!-- Icono del Loader -->
     <div class="loader">
         <span class="loader-text">En Desarrollo</span>
           <span class="load"></span>
     </div>
 
+    <!-- Contenedor de los podios -->
     <div class="container">
         <div class="column" id="podios-f1">
 
+            <!-- Imagen del logo de la categoría -->
             <div id="img-logo">
                 <img class="logo-container" src="../../img/f1.png" alt="F1 Logo">
             </div>
+
+            <!-- Contenedor de los podios -->
             <div id="medio">
                 <div id = "segundo-podio"class="podio"></div>
                 <div id = "primer-podio" class="podio"></div>
                 <div id = "tercer-podio" class="podio"></div>
             </div>
 
+            <!-- Contenedor de la información del podio -->
             <div id="info-podio"></div>
         </div>
 
-
+        <!-- Repetir el mismo esquema para las demás categorías -->
         <div class="column" id="podios-f2">
             <div id="img-logo">
                 <img class="logo-container" src="../../img/f2.png" alt="F1 Logo">
@@ -94,10 +106,13 @@
     </div>
     
 
+    <!-- Scripts -->
     <script src="../../js/utils/loadHeader.js"></script>
     <script src="../../js/components/header.js"></script>
 
 
+    
+    <!-- Script para el scroll horizontal -->
     <script>
         const container = document.querySelector('.container');
         container.addEventListener('wheel', (event) => {

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="../../css/global/general.css">
     <link rel="stylesheet" href="../../css/global/header.css">
     <link rel="stylesheet" href="../../css/global/menu_desplegable.css">
@@ -10,9 +12,13 @@
     <link rel="stylesheet" href="../../css/components/botonAtras.css">
     <link rel="stylesheet" href="../../css/components/swiches.css">
 
+    <!-- Estilos Framework Íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
     <title>Tabla F1</title>
 </head>
+
+<!-- Estilos para el logo -->
 <style>
     #img-logo {
     position: absolute;
@@ -23,47 +29,40 @@
 
 <body>
 
-
+    <!-- Contenedor donde se cargará el header -->
     <div id="header-container"></div>
 
+    <!-- Contenedor de los botones de navegación -->
     <div id="swich">
-
+        <!-- Botón de regresar -->
         <div id="back-button">
             <button class="back-button" onclick="window.history.back()">
                 <i class="fas fa-arrow-left"></i>
                 <span>Volver Atrás</span>
             </button>
         </div>
-        
+
+        <!-- Switch para cambiar entre pilotos y escuderías -->
         <label for="filter" class="switch" aria-label="Toggle Filter">
             <input type="checkbox" id="filter" />
             <span><i class="fas fa-user"></i></span>
             <span><i class="fas fa-shield-alt"></i></span>
         </label>
 
+        <!-- Logo de la categoría -->
         <div id="img-logo">
             <img class="logo-container" src="../../img/f2.png" alt="F1 Logo">
         </div>
-
     </div>
 
-    <div id="pilotos-info">
-        
-    </div>
+    <!-- Contenedor de la información de los pilotos -->
+    <div id="pilotos-info"></div>
+
+    <!-- Contenedor de la información de las escuderías -->
+    <div id="escuderias-info" style="display: none;"></div>
 
 
-
-
-
-    
-    <div id="escuderias-info" style="display: none;">
-
-    </div>
-
-
-
-    
-
+    <!-- Scripts -->
     <script src="../../js/utils/loadHeader.js"></script>
     <script src="../../js/components/header.js"></script>
     <script src="../../js/components/swiches.js"></script>

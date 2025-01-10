@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="../../css/global/general.css">
     <link rel="stylesheet" href="../../css/global/header.css">
     <link rel="stylesheet" href="../../css/global/menu_desplegable.css">
@@ -11,14 +13,20 @@
     <link rel="stylesheet" href="../../css/components/swiches.css">
     <link rel="stylesheet" href="../../css/components/filtro.css">
 
+    <!-- Estilos Framework Íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Estilos Framework Banderas -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
     <title>Calendario</title>
 </head>
+
+
 <body>
     <!-- Contenedor donde se cargará el header dinámicamente -->
     <div id="header-container"></div>
 
+    <!-- Menú de filtro -->
     <div id="menu-filtro">
         <button id="filtro">
             <i class="fas fa-filter"></i> <!-- Ícono de filtro -->
@@ -72,12 +80,19 @@
     </div>
     
 
+
+    <!-- Calendario de carreras -->
     <div id="container">
+
+        <!-- Calendario parte izquierda -->
         <div id="calendar-container"></div>
-        <!-- Contenedor donde se mostrarán los detalles de las carreras con banderas -->
+
+        <!-- Calendario parte derecha -->
         <div id="datosCarrera-container"></div>
     </div>
 
+
+    <!-- Scripts -->
     <script src="../../js/utils/loadHeader.js"></script>
     <script src="../../js/utils/filtro.js"></script>
 

@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="../../css/global/general.css">
     <link rel="stylesheet" href="../../css/global/header.css">
     <link rel="stylesheet" href="../../css/global/menu_desplegable.css">
     <link rel="stylesheet" href="../../css/components/botonAtras.css">
 
+    <!-- Estilos Framework Íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
     <title>Proximamente...</title>
+    
+    <!-- Estilos de la página -->
     <style>
         .message-container {
             text-align: center;
@@ -29,23 +35,30 @@
             100% { transform: rotate(360deg); }
         }
     </style>
+
 </head>
+
+
 <body>
+    <!-- Contenedor donde se cargará el header -->
     <div id="header-container"></div>
 
+    <!-- Botón de regresar -->
     <div id="back-button">
         <button class="back-button" onclick="window.history.back()">
             <i class="fas fa-arrow-left"></i>
             <span>Volver Atrás</span>
         </button>
     </div>
-    
 
+    <!-- Contenedor de la información de los pilotos -->
     <div class="message-container">
         <h1>Próximamente disponible</h1>
         <div class="loading"></div>
     </div>
 
+
+    <!-- Scripts -->
     <script src="../../js/utils/loadHeader.js"></script>
     <script src="../../js/components/header.js"></script>
 </body>

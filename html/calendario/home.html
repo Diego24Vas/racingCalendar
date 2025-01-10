@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="../../css/global/general.css">
     <link rel="stylesheet" href="../../css/global/header.css">
     <link rel="stylesheet" href="../../css/global/menu_desplegable.css">
@@ -10,12 +12,18 @@
     <link rel="stylesheet" href="../../css/pages/home.css">
     <link rel="stylesheet" href="../../css/components/filtro.css">
     
+    <!-- Estilos Framework Íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    
     <title>Racing</title>
 </head>
+
+
 <body>
+    <!-- Contenedor donde se cargará el header -->
     <div id="header-container"></div>
 
+    <!-- Menú de filtro -->
     <div id="menu-filtro">
         <button id="filtro">
             <i class="fas fa-filter"></i> <!-- Ícono de filtro -->
@@ -68,29 +76,33 @@
         </div>
     </div>
 
+    <!-- Contenido de la página -->
     <div id="index-titulo">
+
+        <!-- Título de la página -->
         <div id="proximas-titulo">
             <h2>Próximas carreras</h2>
         </div>
 
+        <!-- Títulos de las secciones -->
         <div id="titulo-semana">
             <h3>Carreras de esta semana</h3>
         </div>
-
         <div id="titulo-mes">
             <h3>Carreras de este mes</h3>
         </div>
     
     </div>
 
+|   <!-- Contenedor de las carreras -->
     <div id="index-container">
         <div id="carreras-semana">
-            <!-- Contenido del otro div -->
         </div>
         <div id="carreras-mes">
         </div>        
     </div>
-
+    
+    <!-- Scripts -->
     <script src="../../js/components/header.js" defer></script>
     <script src="../../js/data/cargarDatos.js" defer></script>
     <script src="../../js/utils/loadHeader.js" defer></script>
