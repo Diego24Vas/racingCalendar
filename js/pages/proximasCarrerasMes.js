@@ -1,24 +1,31 @@
+ // Objetivo: Mostrar las carreras programadas para el mes actual
+
+
+// 
 function showCurrentMonthRaces() {
     const container = document.getElementById('carreras-mes');
     container.innerHTML = ''; // Limpiar el contenedor antes de agregar nuevos elementos
 
+    // Obtener la fecha actual
     const currentDate = new Date();
-    const currentMonth = currentDate.getMonth(); // Los meses en JavaScript son 0-11
+    const currentMonth = currentDate.getMonth(); 
     const currentYear = currentDate.getFullYear();
 
-    console.log('Current Date:', currentDate);
-    console.log('Current Month:', currentMonth);
-    console.log('Current Year:', currentYear);
-    console.log('Events:', events); // Verificar que los eventos se carguen correctamente
+    // console.log('Current Date:', currentDate);
+    // console.log('Current Month:', currentMonth);
+    // console.log('Current Year:', currentYear);
+    // console.log('Events:', events); 
 
+    // Filtrar los eventos para encontrar las carreras del mes actual
     const currentMonthRaces = events.filter(event => {
         const eventDate = new Date(event.fecha.split('/').reverse().join('-')); // Convertir la fecha al formato YYYY-MM-DD
         console.log('Event Date:', eventDate);
         return eventDate.getMonth() === currentMonth && eventDate.getFullYear() === currentYear;
     });
 
-    console.log('Current Month Races:', currentMonthRaces);
+    // console.log('Current Month Races:', currentMonthRaces);
 
+    // Mostrar las carreras del mes actual
     if (currentMonthRaces.length > 0) {
         currentMonthRaces.forEach(event => {
             const eventDiv = document.createElement('div');
@@ -40,6 +47,7 @@ function showCurrentMonthRaces() {
             image.src = event.imagen;
             image.alt = event.nombre;
 
+            // Agregar los elementos al contenedor
             eventDiv.appendChild(title);
             eventDiv.appendChild(date);
             eventDiv.appendChild(circuit);
@@ -48,6 +56,8 @@ function showCurrentMonthRaces() {
 
             container.appendChild(eventDiv);
         });
+
+    // Mostrar un mensaje si no hay carreras programadas para el mes actual
     } else {
         const noEventsMessage = document.createElement('p');
         noEventsMessage.textContent = 'No hay carreras programadas para este mes.';
@@ -55,4 +65,6 @@ function showCurrentMonthRaces() {
     }
 }
 
+
+// Cargar las carreras del mes actual al cargar la página
 document.addEventListener('DOMContentLoaded', showCurrentMonthRaces);

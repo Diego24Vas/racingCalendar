@@ -1,5 +1,9 @@
+// Objetivo: Cargar el calendario de eventos
+
+
 console.log("Archivo pages/calendario.js cargado");
 
+// Lista de eventos
 const calendarContainer = document.getElementById('calendar-container');
 
 // Función para crear el calendario
@@ -53,6 +57,8 @@ function createCalendar(year, month) {
     grid.appendChild(document.createElement("div"));
   }
 
+
+  // Iterar sobre los días del mes
   for (let day = 1; day <= daysInMonth; day++) {
     const date = new Date(year, month, day);
     const dayOfWeek = date.getDay(); // 0 = Domingo, 1 = Lunes, ..., 6 = Sábado
@@ -114,6 +120,8 @@ function updateCalendar(year, month) {
   createCalendar(year, month);
 }
 
+
+// Cargar los eventos de los archivos JSON
 document.addEventListener('DOMContentLoaded', () => {
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
@@ -121,6 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
   createCalendar(currentYear, currentMonth);
 });
 
+// Cambiar de mes con las flechas del teclado
 document.addEventListener('keydown', (event) => {
   if (event.key === 'ArrowLeft') {
     // Lógica para cambiar al mes anterior
@@ -131,6 +140,7 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
+// Función para cambiar de mes
 function changeMonth(direction) {
   currentMonth += direction;
   if (currentMonth < 0) {

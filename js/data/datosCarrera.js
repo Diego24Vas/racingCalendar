@@ -1,3 +1,6 @@
+// Obtiene los datos de los eventos de la carrera seleccionada
+
+
 function showEventDetails(events) {
     const container = document.getElementById('datosCarrera-container');
     container.innerHTML = ''; // Limpiar contenido previo

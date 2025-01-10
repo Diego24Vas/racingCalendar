@@ -1,3 +1,5 @@
+// Objetivo: Cargar el header en todas las páginas
+
 document.addEventListener('DOMContentLoaded', function() {
     fetch('../../html/header.html')
         .then(response => response.text())
