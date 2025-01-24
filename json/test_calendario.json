@@ -1,0 +1,13 @@
+{
+    "temporada": "Test para calendario",
+    "carreras": [
+      {
+        "nombre": "Test para calendario",
+        "fecha": "00/00/2025",
+        "pais": "Chile",
+        "code_pais": "cl",
+        "circuito": "N/A",
+        "imagen": "../../img/TEST.png"
+      }
+    ]
+}

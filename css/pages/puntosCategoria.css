@@ -51,6 +51,15 @@
 }
 
 
+p {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+    height: 100px;          /* Altura para ver el efecto */
+    background-color: #f0f0f0;
+  }
+
+
 @media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
     #img-logo {
         top: 40px; /* Ajuste para pantallas pequeñas */

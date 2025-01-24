@@ -18,7 +18,7 @@
     justify-content: flex-start;
     background-color: #f0f0f0;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     flex: 0.3;
@@ -31,13 +31,13 @@
 }
 
 /* Contenedor de otro */
-#carreras-semana {
+#informacion-carrera {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background-color: #f0f0f0;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     flex: 0.7;
@@ -67,12 +67,13 @@
     text-align: center;
     position: absolute;
     top: 95px;
-    right: 250px;
+    right: 400px;
     border-radius: 10px;
     font-size: 1em;
     margin-top: 0%;
     color: #737070;
     white-space: nowrap; /* Evita que las palabras se dividan en múltiples líneas */
+    
 }
 
 #titulo-mes{
@@ -80,13 +81,23 @@
     text-align: center;
     position: absolute;
     top: 95px;
-    right: -600px;
+    right: -555px;
     border-radius: 10px;
     font-size: 1em;
     margin-top: 0%;
     color: #737070;
 
 }
+
+#container-fecha{
+    display: inline;
+    justify-content: center;
+    background-color:rgba(135, 130, 130, 0.199);
+    border-radius: 10px;
+    padding: 10px;
+    left: 20px;
+}
+
 
 
 
@@ -137,10 +148,10 @@
 }
 
 
-
 .event-details-fin p {
     align-items: center2;
 }
+
 
 
 
@@ -161,39 +172,22 @@
     }
 
     #carreras-mes,
-    #carreras-semana {
-        margin-top:60px ;
+    #informacion-carrera {
+        margin-top:20px ;
         flex: 1; /* Ambos contenedores ocupan el 100% del ancho */
         min-width: auto;
         padding: 15px; /* Reduce el padding interno */
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce la sombra */
     }
 
-    #carreras-semana{
-        margin-top: 90px;
+    #informacion-carrera{
+        margin-top: 20px;
+
     }
-
-
-
 
     #index-titulo{
-        top: 90px;
-        right: 20px;
-    
-    }
-
-
-    #titulo-semana {
-        top: 85px;
-        right: 80px;
-        font-size: 0.5em;
-
-    }
-
-    #titulo-mes{
-        top: 250px;
-        right: 95px;
-        font-size: 0.5em;
+        visibility: hidden;
+        
     }
 
 

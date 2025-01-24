@@ -1,5 +1,4 @@
 /* Estilos para el calendario de la derecha */
-
 #datosCarrera-container {
     background-color: #f0f0f0;
     padding: 10px;
@@ -79,6 +78,35 @@ img {
     height: auto;
 }
 
+.event-details img[src="../../img/TEST.png"] {
+    position: absolute;
+    top: 20px;
+}
+
+.event-details img[src="../../img/wrc.png"] {
+    position: absolute;
+    top: 5px;
+    
+}
+
+.event-details img[src="../../img/nascar.png"] {
+    position: absolute;
+    top: 35px;
+    
+}
+
+.event-details img[src="../../img/indycar.png"] {
+    position: absolute;
+    height: auto;
+    width: 10%;    
+}
+
+.event-details img[src="../../img/wec.png"] {
+    position: absolute;
+    top: 5px;    
+}
+
+
 @media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
 
     #datosCarrera-container {
@@ -106,6 +134,29 @@ img {
         
     }
 
+    .event-details img[src="../../img/TEST.png"] {
+        position: absolute;
+        top: 70px
+    }
+    
+    .event-details img[src="../../img/wrc.png"] {
+        position: absolute;
+        top: 80px;
+        
+    }
+    
+    .event-details img[src="../../img/nascar.png"] {
+        position: absolute;
+        top: 110px;
+        
+    }
+    
+    .event-details img[src="../../img/indycar.png"] {
+        position: absolute;
+        height: auto;
+        width: 15%;
+        top: 80px    
+    }
 
 
 }

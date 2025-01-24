@@ -1,0 +1,14 @@
+#fecha {
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    color: #333;
+  }
+
+
+@media (max-width: 1080px) and (max-aspect-ratio: 20/9) {
+
+    #fecha {
+        font-size: 20px;
+    }
+}
+

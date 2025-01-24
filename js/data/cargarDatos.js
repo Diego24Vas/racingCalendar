@@ -10,7 +10,8 @@ const jsonFiles = [
     '../../json/calendarioNAS_2025.json',
     '../../json/calendarioINDY_2025.json',
     '../../json/calendarioWRC_2025.json',
-    '../../json/calendarioWEC_2025.json'
+    '../../json/calendarioWEC_2025.json',
+    '../../json/test_calendario.json'
 
 ];
 

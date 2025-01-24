@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="../../css/global/general.css">
     <link rel="stylesheet" href="../../css/global/header.css">
     <link rel="stylesheet" href="../../css/global/menu_desplegable.css">
     <link rel="stylesheet" href="../../css/estilosTablas.css">
     <link rel="stylesheet" href="../../css/pages/home.css">
+    <link rel="stylesheet" href="../../css/pages/info-home.css">
     <link rel="stylesheet" href="../../css/components/filtro.css">
+    <link rel="stylesheet" href="../../css/components/fecha.css">
     
     <!-- Estilos Framework Íconos -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     
+
+    <!-- Estilos Framework Banderas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+
+
+    <!-- pestaña del navegador -->
+    <link rel="icon" type="image/x-icon" href="../../img/ico.svg">
     <title>Racing</title>
 </head>
 
@@ -79,35 +90,45 @@
     <!-- Contenido de la página -->
     <div id="index-titulo">
 
-        <!-- Título de la página -->
+        <!-- Título de la página 
         <div id="proximas-titulo">
             <h2>Próximas carreras</h2>
-        </div>
+        </div> -->
 
         <!-- Títulos de las secciones -->
         <div id="titulo-semana">
-            <h3>Carreras de esta semana</h3>
+            <h3>Informacion</h3>
         </div>
         <div id="titulo-mes">
-            <h3>Carreras de este mes</h3>
+            <h3>Próximas carreras</h3>
         </div>
     
     </div>
 
-|   <!-- Contenedor de las carreras -->
+    <!-- Contenedor de las carreras -->
     <div id="index-container">
-        <div id="carreras-semana">
+        
+        <div id="informacion-carrera">
+            <div id="container-fecha">
+                <div id="fecha"></div>
+            </div>    
+            <div id="texto-seleccion">
+                <p>Seleccione alguna carrera del mes</p>
+            </div>
         </div>
+        
         <div id="carreras-mes">
         </div>        
     </div>
-    
+
     <!-- Scripts -->
     <script src="../../js/components/header.js" defer></script>
     <script src="../../js/data/cargarDatos.js" defer></script>
     <script src="../../js/utils/loadHeader.js" defer></script>
     <script src="../../js/utils/filtro.js"></script>
+    <script src="../../js/utils/fecha.js"></script>
+    <script src="../../js/utils/banderas.js"></script>
     <script src="../../js/pages/proximasCarrerasMes.js" defer></script>
-    <script src="../../js/pages/proximasCarrerasFin.js" defer></script>
+    <script src="../../js/pages/detallesCarrera.js" defer></script>
 </body>
 </html>

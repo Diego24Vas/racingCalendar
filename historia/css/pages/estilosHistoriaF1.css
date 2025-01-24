@@ -97,3 +97,33 @@ p {
 }
 
 
+
+
+/* Estilos generales */
+
+
+/* Tabla */
+.tabla-puntuacion {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.tabla-puntuacion th,
+.tabla-puntuacion td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.tabla-puntuacion th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Descripción */
+.descripcion {
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 1rem;
+}

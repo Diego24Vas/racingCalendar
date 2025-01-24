@@ -133,11 +133,11 @@
 }
 
 .today {
-    background-color: #bcbcbc; /* Color de fondo para el día actual */
     color: #000; /* Color de texto para el día actual */
-    border-color: #bcbcbc; /* Color del borde para el día actual */;
-
+    border-color: #2ecc71; /* Color del borde para el día actual */;
+    border-radius: 8px;
 }
+
 
 
 
